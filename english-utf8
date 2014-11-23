@@ -1,0 +1,2600 @@
+charset=utf-8
+BrandingRequires=Requires
+CustInfo_second_email=If you wish to provide a second email address to receive notifications, enter it here.
+CustInfo_email=Email address that you can be contacted at.  This should be an email address that is not on your account if you have one.
+CustInfo_notify_disk_limit=Send notifications to your contact email address when you are reaching your disk quota.
+CustInfo_notify_bandwidth_limit=Send notifications to your contact email address when you are reaching your bandwidth usage limit.
+CustInfo_notify_email_quota_limit=Send notifications to your contact email address when one of your email accounts approaches or is over quota.
+cpanel-loggedin=You are logged in as
+cpanel-host=Host
+cpanel-httpcode=Http Code
+cpanel-date=Date
+cpanel-httpversion=Http Version
+cpanel-bytesize=Size in Bytes
+cpanel-agent=Agent
+cpanel-referer=Referrer
+cpanel-waitstats=Waiting for stats to compile
+cpanel-includeerr=A Non-Fatal Error occurred while trying to include.
+cpanel-noftp=There are currently no active ftp accounts.
+cpanel-noftpsess=There are currently no active ftp sessions.
+cpanel-noresponders=There are currently no active auto-responders.
+cpanel-nolists=There are currently no active mailing lists.
+cpanel-noaccts=There are currently no active mail accounts.
+cpanel-nofilters=There are currently no active filters.
+cpanel-ignoresuc=Ignore any messages of success. This can only result in failure!
+cpanel-fatal=Fatal!
+cpanel-cannotwrite=Write Failure:
+cpanel-tracertdisabled=Traceroute is disabled on this system.  Please ask your System Administrator to enable traceroute.
+cpanel-uploadok=upload succeeded.
+cpanel-uploadfailed=upload failed.
+cpanel-uploadokoverwrote=upload succeeded, overwrote old file.
+cpanel-alreadyexists=already exists, please delete it before uploading.
+cpanel-findfolder=Internal Error, can't find that folder
+cpanel-cantmove=Cannot move
+cpanel-alreadyexists=already exists.
+cpanel-setperms=Set permissions on
+cpanel-create=Created
+cpanel-creationof=Creation of
+cpanel-failedbecause=failed because
+cpanel-rename=Renamed
+cpanel-renameof=Rename of
+cpanel-suceeded=succeeded
+cpanel-filetype=File Type
+cpanel-notrash=Fatal Error! Cannot find trash index file.
+cpanel-restored=Restored
+
+# Edit.com
+edit_com-servicename=Website Maintenance Services
+edit_com-page_title=Managed Website Maintenance Services
+edit_com-overview=Program Overview
+edit_com-overview_desc=We've teamed up with Edit.com, the website maintenance experts, to make it easy for you to increase your customer satisfaction and revenue by offering pre-packaged website maintenance services right from cPanel and on your website. You can also purchase and resell services. The revenue you earn goes straight to your bottom line.
+edit_com-overview_link_text=Managed Services Program Details and Sign-up
+edit_com-activation=Program Activation
+edit_com-activations_desc=Once you've <a href="http://cpanel.edit.com">signed up</a> for the program, enter your activation key below. You will need to enable 'Edit.com Website Maintenance Services' in the <a href="/scripts2/featuremanager">feature list</a> for your hosting package in order for your customers to see the icon for Website Maintenance in their cPanel interface.
+edit_com-activate=Activate
+edit_com-disable=Managing User Access
+edit_com-disable_desc=You can enable or disable the link in cPanel for a specific hosting package by <a href="/scripts2/featuremanager">editing the Feature List</a> associated with that package and unchecking 'Edit.com Website Maintenance Services'.
+edit_com-management=Program Management
+edit_com-management_link_text=Edit.com Program Management
+edit_com-manage_with_edit=Now that Edit.com Managed Website Maintenance Services are enabled, you'll need to enable access for your cPanel users by enabling 'Edit.com Managed Services' in the <a href="/scripts2/featuremanager">feature lists</a> associated with the hosting packages you wish to offer this feature on.
+
+
+cpanel-contactemailnotset=No contact email has been set.  You will be unable to receive notifications or reset your password if you do not set a contact email address.
+
+admin-baduser=Invalid User Name.
+admin-nocpanelfile=Cpanel Config file is missing.
+admin-nodns=Sorry, your Cpanel Config file is missing your dns info.
+admin-errorgid=Error setting gid
+admin-erroruid=Error setting uid
+domainadmin-noresolve=could not be modified because it does not resolve to a valid IP address. Please ask the system admin to check their resolv.conf and their dns trust relationship
+domainadmin-exceed=Sorry, you have exceeded the maximum allowed subdomains.
+domainadmin-master=Can't Change the master entry (www).
+domainadmin-exists=Domain already exists, it was not added.
+domainadmin-added=has been added.
+domainadmin-deled=has been removed.
+domainadmin-sd=The subdomain
+domainadmin-domainexistsglobal=is owned by another user.
+wildcards-notallowed=Wildcard domains are not allowed here.
+parkadmin-exceeds254chars=The domain you have specified exceeds 254 characters.
+parkadmin-doesnotconform=The domain you have specified does not conform to domain name rules.
+parkadmin-unrecognizedcmd=Command Unrecognized.
+parkadmin-noparktop=You cannot park a domain on top of itself!
+parkadmin-noparkmain=You cannot park your main domain!
+parkadmin-addonmaxexceedbegin=Sorry, you are not allowed to add any more than
+parkadmin-addonmaxexceedend=addon domains!  The domain below was not setup!
+parkadmin-parkmaxexceedbegin=Sorry, you are not allowed to add any more than
+parkadmin-parkmaxexceedend=parked domains!
+parkadmin-nameserverips=Using nameservers with the following IPs:
+parkadmin-domainnotconfigured=The following domain is not configured for this account:
+parkadmin-parkdomainexists=is already configured.
+parkadmin-parkdomainexistsglobal=is owned by another user.
+parkadmin-noparkcommon=Sorry, you are not allowed to park common domains.
+parkadmin-noparkowned=is controlled by another user. You cannot park it.
+parkadmin-noparkcpanel=No thanks, we like our domains the way they are!
+parkadmin-notournameservers=Sorry, the domain is already pointed to an IP address that does not appear to use DNS servers associated with this server. Please transfer the domain to this servers nameservers or have your administrator add one of its nameservers to /etc/ips.remotedns and make the proper A entries on that remote nameserver.
+parkadmin-nocontrol=Sorry, you do not control the domain
+parkadmin-unknownnameserver=Sorry, cannot determine nameserver IPs. Please make sure that the domain is registered with a valid domain registrar.
+parkadmin-invaliddomain=is not a valid domain name.
+parkadmin-featuredisabledbegin=Warning! The
+parkadmin-featuredisabledend=feature has been disabled!
+listadmin-nolist=No List specified, can't continue.
+listadmin-exceed=Sorry, you have exceeded the maximum allowed mailing lists.
+listadmin-nopass=No password given, can't continue.
+mysqladmin-exceed=Sorry, you have exceeded the maximum allowed databases.
+mysqladmin-nouser=No user name given
+mysqladmin-nodb=No database name given
+ftpadmin-exceed=Sorry, you have exceeded the maximum allowed ftp accounts.
+popadmin-bademail=Bad Email Format.
+popadmin-invalidaction=Internal Error. No Valid Action Specified.
+popadmin-exceed=Sorry, you have exceeded the maximum allowed email accounts.
+popadmin-invalid=Invalid
+popadmin-notlike=not like
+admin-mainaccount=main account
+cpanel-noftpsupport=Sorry, your account does not have virtual ftp support
+popadmin-nopass=You must specify a password.
+popadmin-noemail=You must specify an email address.
+ftpadmin-nouser=You must specify a user name.
+ftpadmin-nopass=You must specify a password.
+mime-fill=You must fill in the extension as well as the type.
+handler-fill=You must fill in the extension as well as the handler.
+frontend-lastlogin=Last login from
+admin-nocpanel=The cPanel Users File does not exist:
+
+
+Htaccess-AlterWithoutUser=Sorry we cannot alter a user without a username.
+Htaccess-DeleteWithoutUser=Sorry we cannot delete a user without a username.
+Htaccess-AlterWithoutPass=Sorry we cannot alter a user without a password.
+
+// General (Mostly Buttons)
+ControlPanel=Control Panel
+Add=Add
+and=and
+Accounts=Accounts
+Create=Create
+Submit=Submit
+Save=Save
+Reset=Reset
+Remove=Remove
+Delete=Delete
+Install=Install
+NoSupport=Please notice: We offer only the possibility to automatically install this software. We DO NOT support it.
+Yes=Yes
+No=No
+Preview=Preview:
+HTMLCode=<span class="BoldText">HTML code</span> (copy and paste into your HTML file):
+NeedFrames=<p class="Emphasize">This function needs Frames support.</p><p class="Emphasize">Update your browser or enable Frames if you have disabled them.</p>
+Goback=<font class="med">Go Back</font>
+Back=Back
+Note=Note:
+Instructions=Instructions
+ReturnMain=Return to Main
+The=The
+Actions=Actions
+Redirection=Redirection
+Enable=Enable
+ReturnTo=Return to
+
+
+// Page Titles (in TITLE TAG)
+TAgoraCart=Agora Shopping Cart
+TAutoresponders=Auto-responders
+TAwstats=Awstats
+TBackup=Download/Upload backup file
+TCGIEmail=CGI Email
+TCGIWrapper=CGI Wrapper
+TChatroom=Chatroom
+TClock=Clock
+TContactEmail=Contact Email
+TCountdown=Countdown
+TCounter=Counter
+TCounterSample=Counter Digits Sample
+TCpanel=Control panel
+TCron=Cron jobs
+TDomainPass=Domain password
+TEditHtaccess=Edit .htaccess
+TEntropyBanner=Entropy banner
+TEntropyGuestbook=Entropy Guestbook
+TEntropySearch=Entropy search
+TErrorPages=Error pages
+TFileManager=File Manager
+TFormMail=FormMail-clone
+TForwarders=Forwarders
+TFrontpage=FrontPage Extensions
+TFTPaccounts=FTP accounts
+TFTPManager=FTP Manager
+TFTPAnonymous=Anonymous FTP Access
+TFTPsessions=FTP sessions
+THandlers=Apache Handlers
+TIndexMan=Index Manager
+TImageMan=Image Manager
+TInterchangeCart=Interchange Shopping Cart
+TIPDeny=IP Deny Manager
+TLeechPro=Leech Protection
+TLists=Mailing lists
+TLoadingTelnet=Loading Telnet applet
+TLookup=DNS lookup
+TMIME=MIME Types
+TMX=MX Entries
+TMySQL=MySQL® Databases
+TPostgre=PostgreSQL Databases
+TPGP=GnuPG Keys
+TPhpMyChat=PhpMyChat
+TPOP=POP email accounts
+TProtectDir=WebProtect (Password protect directories)
+TRawLogs=Raw Access Logs
+TRandomHTML=Random HTML
+TRedirects=Redirects
+TSpamAssassin=SpamAssassin
+TSpamFilters=Spam filters
+TSSL=SSL
+TSSLManager=SSL Manager
+TSSLInstall=SSL Installer
+TStatistics=Statistics
+TSubdomains=Subdomain
+TSubmitSupport=Submit Support Request
+TSubmitToEngines=Search Engine Submit
+TTelnetApp=SSH/Shell Access
+TTelnetLoad=Loading Telnet applet
+TTraceroute=Traceroute
+TXMBBoard=XMB Board
+TChangePass=Change Password
+TSubdomainStats=Subdomain Stats
+TWebHostManager=WebHost Manager<sup><font size="1">TM</font></sup>
+TWebFtpStats=Web/FTP Stats
+
+// Lower Navigation Menu
+NavMain=Main
+NavAgora=Agora Shopping Cart
+NavAnonFTP=Setup anonymous FTP access
+NavAutores=Auto-responders
+NavBanner=Banner
+NavClock=Clock
+NavCountdown=Countdown
+NavCron=Cron jobs
+NavDomainPass=Domain password
+NavEditHtaccess=Edit .htaccess
+NavESearch=Entropy search
+NavErrorPages=Error pages
+NavFileManager=File Manager
+NavForwarders=Forwarders
+NavFTPaccounts=FTP accounts
+NavFTPAnonymous=Anonymous FTP access
+//* corrected at the bottom: NavFTPsessions=FTP FTP sessions
+NavHandlers=Apache Handlers
+NavLists=Mailing lists
+NavLookup=DNS Lookup
+NavMIME=MIME Types
+NavMX=MX Entries
+NavMySQL=MySQL Databases
+NavProtectDir=Password Protect Directories
+NavPGP=GnuPG Keys
+NavPhpMyChat=PhpMyChat
+NavPOP=POP email accounts
+NavRandomHTML=Random HTML
+NavRedirects=Redirects
+NavSpamAssassin=SpamAssassin
+NavSpamFilters=Spam filters
+NavSubdomains=Subdomains
+NavSubmitToEngines=Submit to search engines
+NavXMB=XMB Board
+
+// index.html
+INDXServername=Server Name
+INDXHostname=Hostname
+INDXMail=Mail
+INDXSecurity=Security
+INDXAdmin=Admin Tools
+INDXDomainTools=Domain Tools
+
+INDXDedicatedIp=Dedicated Ip Address
+INDXTheme=Theme
+INDXMachineType=Architecture
+INDXSharedIp=Shared IP Address
+INDXPostgresqlDiskUsage=Postgresql Disk Space 
+INDXGenAccountInfo=General account information
+INDXHostingPackage=Hosting package
+INDXAccounts=Accounts
+INDXCurrent=Current
+INDXMaximum=Maximum
+INDXEmailAccounts=Email accounts:
+INDXEmailForwarders=Email forwarders:
+INDXAutoresponders=Auto-responders:
+INDXMailingLists=Mailing lists:
+INDXEmailFilters=Email Filters
+INDXFTPAccounts=FTP accounts
+INDXSQLDBS=SQL Databases
+INDXAdditions=Additions
+INDXSubdomains=Subdomains
+INDXParkedDomains=Parked Domains
+INDXAddonDomains=Addon Domains
+INDXMySQL=MySQL Databases
+
+INDXCgiCenter=CGI Center
+INDXNetworkTools=Network Tools
+INDXUsage=Usage
+INDXDiskUsage=Disk Space Usage
+INDXSQLDiskUsage=MySQL Disk Space
+INDEXPostgresql=Postgresql Databases
+INDXBandwidth=Bandwidth (this month)
+INDXDiskAvailable=Disk space available
+INDXGeneralInfo=General server information
+INDXOperatingSys=Operating system
+INDXKernelver=Kernel version
+INDXApachever=Apache version
+INDXPERLver=Perl version
+INDXPHPver=PHP version
+INDXMySQLver=MySQL version
+INDXPerlPath=Path to Perl
+INDXPerlModules=Installed Perl Modules
+INDXPerlView=Click to View
+INDXSendmailPath=Path to sendmail
+INDXSendmailHint=Hint: some scripts require a " -t" after the sendmail path, e.g.:
+INDXEmailAccounts=Email Accounts
+INDXEmailFowarders=Email Forwarders
+INDXAutoResponders=Auto-responders
+INDXMailingLists=Mailing Lists
+INDXMailFilters=Mail Filters
+INDXFtpAccounts=Ftp Accounts
+INDXBuildVersion=cPanel Version
+INDXForum=Setup Forums/Bulletin Board
+INDXPGP=Manage OpenPGP Keys
+INDXPhpChat=phpMyChat Room
+INDXWebMail=Read Your Email
+INDXWelcome=Welcome
+INDXLastLogin=Last login from:
+
+MENUPinNav=Pin to Navigation
+MENUMailtitle=Mail Manager Main Menu
+MENUMailmaint=Mail Account Maintenance
+MENUMailChange=Change Mail Account Settings
+MENUMail=Mail
+MENUEmailAccounts=Email Accounts
+MENUWebmail=Web Mail
+MENUChoosewebmail=Please choose a Web Mail Program:
+MENUAddremoveacct= Add/Remove/Manage Accounts
+MENUReadEmail=Read your email
+MENUPOPAccounts=POP email accounts
+MENUDefaultAddress=Default Address
+MENUAutoresponders=Auto-responders
+MENUFiltering=Email Filtering
+MENUForwarders=Forwarders
+MENULists=Mailing Lists
+MENUSpamFilters=Spam filters
+MENUSpamAssassin=SpamAssassin
+MENUTraceaddy=Trace an E-mail Address
+MENUModifyMX=Modify Mail Exchanger (MX Entry)
+MENUMailbesure=Be sure to enable SMTP Authentication in your E-mail client or you may not be able to send mail. If your e-mail client has trouble using a @ sign in the login, you can use +, :, or % sign instead.
+
+MENUServer=Server
+MENUDomainPass=Domain password
+MENUSubdomains=Subdomains
+MENUFPExtensions=FrontPage® Extensions
+MENUMySQL=Add/Remove MySQL Databases
+MENUphpMyAdmin=Maintain MySQL Databases (phpMyAdmin)
+MENUErrorPages=Error pages
+MENURedirects=Redirects
+MENUEditHtaccess=Edit .htaccess
+MENUProtectDir=Password Protect Directories
+MENUFileManager=File manager
+MENUCron=Cron jobs
+MENUMIME=MIME Types
+MENUHandlers=Apache Handlers
+MENUBackupFile=Download/Upload backup file
+MENUTelnet=SSL Telnet
+
+MENUServices=Services
+MENUGNUPGKeys=GnuPG Keys
+MENUSubmitEngines=Submit to search engines
+MENUTraceroute=Traceroute
+MENULookup=DNS lookup
+
+MENUFTP=FTP Manager
+MENUFTPAccounts=FTP Accounts
+MENUFTPAccountsHint=With the FTP account utility you can control FTP accounts for your users or if your account has sub-domain support you can add FTP accounts for your sub-domain(s).
+MENUSetupAnonAccess=Setup Anonymous FTP Access
+MENUSetupAnonAccessHint=Here you can change how anonymous FTP users should be treated and change the anonymous upload policy as well.
+MENUSetupAnonMessage=Anonymous FTP Message
+MENUSetupAnonMessageHint=You can edit the anonymous FTP welcome message that users will see when they login to your FTP site.
+MENUFTPSessions=FTP Session Control
+MENUFTPSessionHint=This utility allows you to disconnect users or time out FTP sessions.
+
+
+MENUScriptsLibrary=Site Scripts
+MENUChatroom=Chatroom
+MENUInterchangeCart=Interchange Shopping Cart
+MENUAgoraCart=Agora Shopping Cart
+MENUXMB=XMB Board
+MENUPHPMyChat=PhpMyChat
+//* corrected at the bottom: MENUCGIEmail =CGI email
+MENUCGIWrap=CGIwrap
+MENUClock=Clock
+MENUCountdown=Countdown
+MENUCounter=Counter
+MENUEntropyGuestbook=Guestbook
+MENUEntropyBanner=Entropy banner
+MENUEntropySearch=Entropy search
+MENUFormmail=Formmail
+MENURandomHTML=Random HTML
+
+MENUStatistics=Statistics
+MENUDownloadRawLogs=Download Raw Access Logs
+MENUAnalog=Analog
+MENUAwstats=Awstats
+MENULatestVisitors=Latest Visitors
+MENUWebalizer=Webalizer
+MENUBandwidth=Bandwidth
+MENUErrorLog=Error log
+MENUSubstats=Subdomains Statistics
+
+//Account & System Info
+ASIGeneralAccountHead=General account information
+ASIPackage=Hosting package
+ASIContactEmail=Contact E-mail
+ASIContactUpdateButton=Update
+ASIInUse=Current
+ASIAllowed=Maximum
+ASIAccountsHead=Accounts
+ASIAccountsEmail=Email accounts:
+ASIAccountsFW=Email forwarders:
+ASIAccountsAR=Auto-responders:
+ASIAccountsML=Mailing lists:
+ASIAccountsSF=Spam e-mail filters
+ASIAccountFTP=FTP accounts
+ASIAdditionsHead=Additions
+ASIAdditionsSub=Subdomains
+ASIAdditionsMySQL=MySQL Databases
+ASIUsageHead=Usage
+ASIUsageDisk=Disk Usage
+ASIUsageDiskMBPre=
+ASIUsageDiskMBPost=MB
+ASIUsageTraffic=Bandwidth usage (current month)
+ASIUsageTrafficMBPre=
+ASIUsageTrafficMBPost=MB
+ASIUsageAvail=Disk space available
+ASIUsageAvailMBPre=
+ASIUsageAvailMBPost=MB
+ASIGeneralServerHead=General server information
+ASIOpSystem=Operating system
+ASIVerKernel=Kernel version:
+ASIVerApache=Apache version
+ASIVerPerl=PERL version
+ASIVerPHP=PHP version
+ASIVerMySQL=MySQL version
+ASIPathPerl=Path to PERL:
+ASIPathSendmail=Path to sendmail:
+
+//Autoresponders
+ARMaint=Auto-responder Maintenance
+ARResemail=Auto-responder E-Mail
+ARHead=Auto-responders
+EmailAuto=Auto-responders
+ARHeadEdit=Edit auto-responder
+AREmail=Email:
+ARFrom=From:
+ARSubtitle=Subject
+ARSubject=Subject:
+ARCharacterset=Character Set:
+ARHTMLmesg=HTML Message:
+ARBody=Body:
+ARCreate=Create
+ARClear=Clear
+ARAddedHead=Auto-responder added
+ARAddedPre=The auto-responder
+ARAddedPost=was added.
+ARModifiedHead=Auto-responder modified
+ARModifiedPre=The auto-responder
+ARModifiedPost=was modified.
+ARRespondingAddress=Responding email address
+ARSubject=Subject
+ARAddHead=Add auto-responder
+ARDeletedHead=Auto-responder deleted
+ARDeletedText=The auto-responder
+ARDeletedText=was deleted.
+ARAddautores=Add Auto-responder
+ARCreated=Auto-responder Created
+ARSuccess=was successfully created.
+
+//Agora Cart
+ACInstall=Install an  Agora Shopping Cart
+ACHint=The Agora Cart is a free shopping cart program. Support can optionally be obtained through a mailing list setup specifically for Agora Users for a small fee of $25.00 per year. You can join the list by visiting: <a href="http://www.agoracgi.com/">http://www.agoracgi.com/</a>
+ACPathHint=
+ACInstallInfo=You <span class="Emphasize">must</span> install the cart in a top level directory.
+ACInstallExampleValidPre=Example:
+ACInstallExampleNonValidPre=is a valid location to install the cart.
+ACInstallExampleNonValidPost=is not.
+ACAdmin=Admin User Name:
+ACPassword=Admin Password:
+ACURL=Install cart at this url:
+ACYourCarts=Your Agora Shopping Carts
+ACAgora=Agora Shopping Cart
+ACRemove=Remove an Agora Shopping Cart
+
+
+//Analog
+ANAnalog=Analog
+ANSelect=Please select a month that you wish to view statistics for:
+
+//Apache Handlers
+AHHead=Apache Handlers
+AHAddedHead=Apache handler added
+AHaddedHandlerPre=The Apache handler
+AHAddedExtPre=has been assigned to the extension(s)
+AHAddedExtPost=.
+AHDeletedHead=Apache handler deleted
+AHDeletedPre=The Apache handler
+AHDeletedPost=has been deleted.
+AHInfoLinkPre=Apache handlers determine how specific files should be handled by your server.
+AHInfoLinkURL=http://httpd.apache.org/docs/handler.html
+AHInfoLinkLink=Click here
+AHInfoLinkPost=to learn more about Apache handlers.
+
+AHAddHead=Add Apache handler
+AHAddHint=Hint: Apache handlers are case sensitive.
+AHAddHandler=Handler
+AHAddExtention=Extention(s)
+AHDeleteHead=Delete Apache handler
+AHDefinedSystemHead=System-wide defined Apache handler
+AHDefinedUserHead=Domain-wide defined Apache handler
+
+//Backup
+BUHead=Download/Upload backup file
+BUDownloadTodays=Download today's backup file:
+BUFullNotice=Full backups can only be used for moving your account<br />to another server or keeping a local copy of your account
+BUDownloadButton=Download
+BUUploadFile=Upload backup file
+BUUploadButton=Upload
+BURestoring=Restoring files
+BUDBRestoring=Restoring Database
+BUAFRestoring=Restoring Email Domain Forwarder/Filter
+BUAliasFilterTitle=Download Email Domain Forwarder or Filter Backup
+BUFullNotice=Note: You cannot restore these backups, they can only be restored by your administrator.
+BU-NotEnabled=Backup Not Enabled
+
+//Bandwidth
+BWHead=Bandwidth
+BWNotice=This only includes your domain's HTTP traffic -- it may also include FTP traffic if your system administrator has enabled it.<p class="BoldText">This does not include POP3, SMTP, TELNET or any other traffic!</p>
+BWDate=Date
+BWMegabytes=Megabytes
+BWGigabytes=Gigabytes
+
+//Banner
+BNPriorityUpdatedHead=Display priority  updated
+BNPriorityUpdatedPre=The  priority for the banner
+BNPriorityUpdatedPost=has been updated.
+BNUploadReportHead=Upload report
+BNLinkUpdated=Link updated
+BNModLinkPre=The link for the banner
+BNModLinkPost=has been updated.
+BNModTargetPre=New target is
+BNModTargetPost=.
+BNDeletedHead=Banner deleted
+BNDeletedPre=The banner
+BNDeletedPost=has been removed.
+BNHead=EntropyBanner
+BNInfo=Entropy Banner allows you to manage your banners: upload, remove, adjust display priority or change the target URL of your banners.
+BNCode=Add following code into the HTML page that you want to display your banners:
+BNHint=Hint: Your HTML file MUST have the extension <span class="BoldText">.shtml</span> for this to work.
+BNUploadHead=Upload banner
+BNSelectFiles=Please select files to upload to
+BNOverwrite=Overwrite existing files:
+BNUploadButton=Upload
+BNModifyHead=Upload banner
+
+//CGI Email
+CGIEHead=CGI Email
+CGIEInfo=<span class="Emphasize">CGI Email</span> turns emails into nicely formatted forms.
+CGIEInstalled=CGI Email has been installed.
+CGIEMoreLinkPre=
+CGIEMoreLinkLink=Click here
+CGIEMoreLinkPost=to get instructions how to use it.
+
+
+//CGIWrapper
+CGIWHead=CGI Wrapper
+CGIWInfo=<span class="Emphasize">CGI Wrapper</span> enables .cgi scripts to run with your user name (instead of user name <span class="BoldText">nobody</span>, group <span class="BoldText">nobody</span>).
+CGIWInstructionsLinkPre=
+CGIWInstructionsLinkLink=Click here
+CGIWInstructionsLinkPost=to learn more about CGI Wrapper.
+CGIWInstallPre=
+CGIWInstallLink=Click here
+CGIWInstallPost=to install CGI Wrapper.
+CGIWInstalled=<span class="Emphasize">CGI Wrapper</span> is now enabled!
+CGIWInfoPathPre=Put .cgis that you want to run with your userid in the directory
+CGIWInfoPathPost=.
+CGIWInfoWWWPre=Access them at
+CGIWInfoWWWPost=.
+
+//Chatroom
+CRChatHead=Install Chatroom
+CRInstallEntropy=Install Entropy Chat
+CREntropyCode=Copy and paste this HTML code into your page to create a chatroom gateway:
+CREntropyPreview=Entropy Chat login preview:
+CRInstallJava=Install Java Chatroom
+CRJavaCode=To use a Java based chatroom, put the link below in your pages:
+CRChatButton=Enter Chat
+CRNickname=Nickname:
+
+//Clock
+CLHead=Clock
+CLTimeZone=Time zone
+CLServerTime=Server time
+CLTimeFormat=Time format
+CL12=12
+CL24=24
+CLBorder=Border
+CLShowDate=Show date
+CLYes=Yes
+CLNo=No
+CLForegroundC=Foreground color
+CLBackgroundC=Background color
+CLRed=Red
+CLGreen=Green
+CLBlue=Blue
+CLCyan=Cyan
+CLMagenta=Magenta
+CLYellow=Yellow
+CLOrange=Orange
+CLPink=Pink
+CLBlack=Black
+CLWhite=White
+CLMakeHTML=Make HTML
+
+//ContactEmail
+CEPleaseUpdate=Please update your contact information
+CEPleaseUpdateLink=here
+CESavedHead=Contact Email saved
+CESavedDomainPre=Contact Email for
+CESavedEmailPre=has been set to
+CESavedEmailPost=.
+
+
+//Counter
+CNTJavaAlert1=You're already at the maximum value.
+CNTJavaAlert2=You're already at the minimum value.
+CNTCreateHead=Create a counter
+CNTCreateWhat=Create
+CNTCounter=Counter
+CNTClock=Clock
+CNTDate=Date
+CNTTimeZone=Time zone (GMT -0500 is EST)
+CNTServerTime=Server time
+CNTTimeFormat=Time format
+CNT12=12
+CNT24=24
+CNTDateFormat=Date format
+CNTMMDDYY=MMDDYY
+CNTDDMMYY=DDMMYY
+CNTYYDDMM=YYDDMM
+CNTDDYYMM=DDYYMM
+CNTYYMMDD=YYMMDD
+CNTMMYYDD=MMYYDD
+CNTMaxDigits=Max Digits
+CNTStyle=Style
+CNTSeeStyles=(see styles)
+CNTBorderThickness=Border (pixels)
+CNTBorderColor=Border color
+CNTRGBRed=Red
+CNTRGBGreen=Green
+CNTRGBBlue=Blue
+CNTColorReplace=Color replacement
+CNTReplace=Replace
+CNTWith=with
+CNTPreview=Preview
+CNTCounterName=Counter Name
+CNTModifyHead=Modify a counter
+CNTModifyName=Counter Name (ommit .dat):
+CNTModifySetTo=Set counter to:
+CNTSampleHead=Counter Digits Sample
+CNTSampleName=Name
+CNTSampleDigits=Digits
+CNTResult=Result
+
+//Countdown
+CDHead=Countdown
+CDCountdownTo=Countdown to:
+CDHour=Hour
+CDDay=Day
+CDMonth=Month
+CDJan=Jan
+CDFeb=Feb
+CDMar=Mar
+CDApr=Apr
+CDMay=May
+CDJun=Jun
+CDJul=Jul
+CDAug=Aug
+CDSep=Sep
+CDOct=Oct
+CDNov=Nov
+CDDec=Dec
+CDYear=Year
+
+//Cron
+CRNSavedHead=Cron file changed
+CRNSavedInfo=Your changes have been saved.
+CRHead=Cron Jobs
+CRInfoLinkPre=
+CRInfoLinkURL=http://www.redhat.com/support/docs/tips/cron/cron.html
+CRInfoLinkLink=Click here
+CRInfoLinkPost=to find more about cron jobs (will open in new window).
+CRPhpHint=Hint: to run <span class="Emphasize">PHP</span> files, enter the command as follows (modify to fit your needs):<br>GET http://yourdomain.com/path_to_file/file.php > /dev/null
+CRCgiHint=Hint: to run <span class="Emphasize">CGI</span> files, enter the command as follows (modify to fit your needs):<br>GET http://yourdomain.com/cgi-bin/path_to_file/file.cgi > /dev/null
+CRMinute=Minute
+CRHour=Hour
+CRDay=Day
+CRMonth=Month
+CRWeekday=Weekday
+CRCommand=Command
+CRRemoved=Cron job has been removed.
+
+//DNSLookup
+DNSHead=DNS lookup
+DNSText=Enter a domain to lookup:
+DNSButton=Lookup
+DNSLookupResults=DNS lookup results:
+DNSZoneInfo=Zone info:
+
+//Password
+MENUPasswdtitle=Password Maintenance
+DPJAlertCurrentBlank=The 'Old password' field is blank. Please enter your current password in the 'Old password' field.
+DPJAlertNewBlank=The 'New password field is blank. Please enter your new password in the 'New password' field.
+DPJAlertMinLength=The new password must have a length of at least 5 characters.
+DPJAlertMaxLength=The new password cannot be longer than 15 characters.
+DPJAlertDontMatch=The new password fields don't match. Please retry.
+DPModifyHead=Change Domain Password
+DPModifyInfo1=This changes the main password for your account; please make sure you close all existing windows that you have open for the control panel.
+DPModifyInfo2=Please do not make your password too simple and always write it down in a safe place.
+DPOldPass=Old Password:
+DPNewPass=New Password:
+DPNewConfirm=New Password (again):
+DPHint1=Don't write down your password, memorize it. In particular, don't write it down and leave it anywhere, and don't place it in an unencrypted file! Use unrelated passwords for systems controlled by different organizations. Don't give or share your password, in particular to someone claiming to be from computer support or a vendor unless you are sure they are who they say they are. Don't let anyone watch you enter your password. Don't enter your password on a computer you don't trust. Use the password for a limited time and change it periodically.
+DPHintTitle2=Choose a hard-to-guess password:
+DPHint2=Our system will try to prevent you from choosing a really bad password, but it isn't foolproof; create your password wisely. Don't use something you'd find in a dictionary (in any language or jargon). Don't use a name (including that of a spouse, parent, child, pet, fantasy character, famous person, or location) or any variation of your personal or account name. Don't use accessible information about you or your environment, such as your phone number, license plate or social security number. Don't use a birthday or a simple pattern, such as backwards, followed by a digit, or proceeded by a digit. Instead, use a mixture of upper and lower case letters, as well as digits or punctuation. When choosing a new password, make sure it's unrelated to any previous password. Use long passwords (say 8 characters long). You might use a word pair with punctuation inserted, a pass phrase (an understandable sequence of words), or the first letter of each word in a pass phrase.
+
+
+
+//Email Accounts
+EMAILAddress=Address
+EMAILLogin=Login
+EMAILAdd=Add Account
+EMAILAddacct=Add Mail Account
+EMAILSettings=Settings and Spam Prevention
+EAListHead=Existing POP e-mail accounts
+EAListColumnMail=E-mail address
+EAListColumnPOP=POP account
+EAAddHead=Add POP e-mail account
+EAAddEmail=E-mail:
+EAAddPassword=Password:
+EAAddQuota=Quota (optional):
+EAAddMeg=Meg
+EAAddcreate=Create
+EAAddclear=Clear
+EAAddedHead=POP e-mail account added
+EAAddedEmailPre=Following POP email account was added:
+EAAddedEmailPost=
+EAAddedSetupInfo=Setup your email client using following information:
+EAAddedLoginPre=POP Account:
+EAAddedLoginPost=
+EAAddedPassPre=Password:
+EAAddedPassPost=
+EAAddedPOPServerPre=POP-Server:
+EAAddedPOPServerPost=
+EAAddedSMTPServerPre=SMTP-Server:
+EAAddedSMTPServerPost=
+EAModifyHead=Modify POP e-mail account password
+EAModifyAccount=E-mail account:
+EAModifyPass=New password:
+EAModifyQuotasProblem=Sorry, there was a problem modifying mail quotas
+
+EAdocreated=Account Created
+EAdoadd=The e-mail account
+EAdoaddlog=with the login
+EAdoaddpass=and password
+EAdoaddquota=with a quota of
+EAdoaddmegs=Megabytes
+EAdoaddsuccess=was successfully created.
+
+EADeletion=Account Deletion
+EADeleted=Account Deleted
+EADelconfirm=Are you sure you wish to delete the e-mail account
+EADelsuccess=was successfully deleted.
+
+EADefaultHead=All unrouted mail will be sent to:
+EADefaultModifyHead=Modify default address:
+EADefaultModifyEnter=Enter the (complete) e-mail address to receive all unrouted mail:
+EADefaultSetHead=Default e-mail address set
+EADefaultSetText=All unrouted mail is now going to:
+EADeletedHead=POP e-mail account deleted
+EADeletedTextPre=The e-mail account
+EADeletedTextPost=was deleted.
+EADefaultsendall=Send all unrouted e-mail for:
+EADefaultto=to:
+EADefaulthint=Hint: You can enter <b>:blackhole:</b> to discard all incoming unrouted mail or <b>:fail: no such address here</b> to bounce it.
+EADefaultallfor=All unrouted e-mail for
+EADefaultallgoing=is now going to
+
+EAChangingpass=Changing password for
+EANewpass=New Password:
+EAChange=Change
+EAChangesuccess=was successfully modified.
+
+EASettingschanged=Account Settings Changed
+
+EAChangingquota=Changing quota for
+EANewquota=New Quota:
+
+EADefaultmaint=Default Address Maintenance
+EADefaultset=Set Default Address
+
+EReturn=Return To Mail Manager
+
+//Error Log
+ELHead=Error Log
+ELText=Last Error Log messages in reverse order:
+
+//Error Pages
+EPHead=Error pages
+EPText=With this tool you can create custom error pages to display when a user enters a wrong URL, an outdated URL or when the user is not authorized to access a specific directory of your web space.
+EP400Pre=
+EP400Link=Create/Edit Error 400 Page
+EP401Pre=
+EP401Link=Create/Edit Error 401 Page
+EP403Pre=
+EP403Link=Create/Edit Error 403 Page
+EP404Pre=
+EP404Link=Create/Edit Error 404 Page
+EP500Pre=
+EP500Link=Create/Edit Error 500 Page
+
+EP400Post=(Bad request)
+EP401Post=(Authorization required)
+EP403Post=(Forbidden)
+EP404Post=(Wrong page)
+EP500Post=(Internal server error)
+
+EPEditText=Editing
+EPClicktoIn=Select Tags to Insert:
+EPEditHead=Edit error page
+EPEditFileName=Current file:
+EPEditSelectTag=Select tag to insert
+
+EPEditTagBrowser=Visitor's browser
+EPEditTagRedirectStatus=Redirect Status Code
+EPEditSaveAs=Save as:
+EPSavedHead=Error page saved
+
+EPEditTagRefURL=Referring URL
+EPEditTagVisitorsIP=Visitor's IP address
+EPEditTagReqURL=Requested URL
+EPEditTagServer=Server name
+EPSaveFileButton=Save
+EPSavedTextPre=The file
+EPSavedTextPost=was saved.
+
+//File Manager
+FMHead=File Manager
+FMPermissionsSet=Permissions set
+FMin=in
+FMCreateDirHead=Create directory
+FMCreateDirIn=Create a directory in
+FMCreateDirName=Create directory named
+FMCreateFileHead=Create file
+FMCreateFileIn=Create a file in
+FMCreateFileName=Create file named
+FMOperationCompleted=Operation completed
+FMDirCreatedHead=Directory created
+FMDirInDir=in
+FMFileCreatedHead=File created
+FMFileInDir=in
+FMObjectRenamedHead=Object renamed
+FMObjectInDir=in
+FMUploadHead=File Upload
+FMUploadStatus=Upload Status
+FMEmptyTrashHead=Empty trash
+FMEmptyTrashStatus=Emptying trash...
+FMEditHead=Edit file
+FMEditText=Editing
+FMEditSaveAs=Save file as:
+FMExtractFileHead=Extract file
+FMFileOpHead=File operation
+FMFileOpTextPreOp=Please select where you want to
+FMFileOpTextPreFile=
+FMFileOpTextPostFile=
+FMNavHelp=Click on a <b>folder icon</b> to navigate.<br>Click on a <b>folder name</b> to select it.
+FMPropertiesHelp=Click on a folder icon to navigate.<br>Click on a name to view its properties.
+FMChange=Change
+FMGetFileHead=Get File
+FMSetPermissionsHead=Set permissions
+FMRenameHead=Rename
+FMRenameFilePre=Rename
+FMRenameDirPre=in
+FMRenameNewNamePre=to
+FMRenameNewNamePost=
+FMObjectMovedToTrash=Object moved to trash
+FMObjectRestoredFromTrash=Object restored
+FMFileSavedHead=File Saved
+FMFileSavedFilePre=File
+FMFileSavedFilePost=was saved.
+FMFileSavedLinkPre=Continue editing
+FMFileSavedLinkPost=
+FMDirOpsHead=Directory operations
+FMFileOpsHead=File operations
+FMViewFileHead=View File
+FMTrashHead=Trash
+FMTrashEmpty=Click on the trashcan to empty it.
+FMTrashRestoreInfo=Click on an object below to restore it.
+FMTrashEmptyLink=Empty trash
+FMUploadHead=Upload files
+FMUploadSelectDirPre=Please select files to upload to
+FMUploadSelectDirPost=
+FMUploadOverwriteCheckbox=Overwrite existing files:
+FMBackto=Back to
+FMUploadButton=Upload
+FMUploadBackLinkDirPre=
+FMUploadBackLinkDirPost=
+
+
+//Disk Usage Viewer
+DUVHead=Disk Usage Viewer
+
+
+//Form-Mail
+FORMHead=FormMail-clone
+FORMTextPreAction=<span class="BoldText">FormMail-clone</span> is a clone of Matt Wright's <span class="BoldText">FormMail.cgi</span> under a less restrictive license. It behaves almost exactly as FormMail.cgi, but it is completely written from scratch so there may be a few minor visual differences.<p>To call the script, create a form with Action
+FORMTextPostAction=
+FORMInfoPreLink=
+FORMInfoLinkURL=http://www.worldwidemart.com/scripts/readme/formmail.shtml
+FORMInfoLinkText=Click here
+FORMInfoPostLink=to get more information on how to use FormMail-clone.cgi.
+
+//Forwarders
+FWMaint=Forwarding Maintenance
+FWCurrent=Current Forwarders
+FWAddanew=Add a new Forwarder
+FWDeletedHead=Forwarder deleted
+FWDeletedEmailPre=
+FWDeletedTargetPre= no more forwards to
+FWDeletedTargetPost=.
+FWAddedHead=Forwarder added
+FWAddedTextPreSource=All email sent to
+FWAddedTextPreTarget=will now be redirected to
+FWDelfwd=mail will no longer be redirected to
+FWAddedTextPostTarget=.
+FWListHead=Forwarders
+FWListText=Installed forwarders
+FWAddHead=Add Forwarder
+FWAddPreEmail=
+FWAddPreTarget=shall forward to email address
+FWAddPostTarget=
+
+//Frontpage Extensions
+FPEHead=Frontpage Extensions
+FPEPreStatus=Frontpage Extensions are currently
+FPEPostStatus=
+FPEWarning=<span class="Hint">Warning:</span> Installing or uninstalling Frontpage Extensions will result in the loss of all &quot;.htaccess&quot; files in your web area. Any directories you have protected with WebProtect will become unprotected until you reprotect them.
+FPEInstallHead=Install/Uninstall Frontpage Extensions
+FPEInstallButton=Install Extensions
+FPERemoveButton=Uninstall Extensions
+FPEDoInstallHead=Install Frontpage Extensions
+FPEDoInstallText=Installing Frontpage Extensions...
+FPESwitchPreStatus=Frontpage Extensions are now
+FPESwitchPostStatus=
+FPEDoRemoveHead=Remove Frontpage Extensions
+FPEDoRemoveText=Removing Frontpage Extensions...
+
+//FTP Accounts
+MENUFTPAccountsTitle=FTP Account Maintenance
+FTPAddAccount=Add FTP Account
+
+
+FTPHint1Pre=Make sure that you connect to <i>ftp.
+FTPHint1Post=</i> with your FTP client or you may not be able to login.
+FTPHint2Pre=You can download your raw access logs at the following URLs using the login 
+FTPHint2Post= and your account password:
+
+
+FTPHint3Pre=<b>Directions:</b><br>If you enter a single / in the directory box, the new FTP user will have access to the entire public_html directory and all directories under it. If you just want the new user to be able to access a sub-domain, just set the directory box to the same value as the sub-domain's root name, which is listed in parenthesis on the sub-domain section of this control panel.<br><br>Please be aware that the new user will have read/write access to the directory you choose and every directory below it. For example, if you choose to add the user john, and give the user access to
+FTPHint3Mid=/public_html/john directory, the user will be able to add, edit, rename and remove any file or directory in
+FTPHint3Post=/public_html/john.
+
+
+
+FTPLogin=Login:
+FTPPassword=Password:
+FTPDirectory=Directory:
+FTPCreate=Create
+FTPChange=Change
+FTPClear=Clear
+FTPDeletedHead=FTP Account Deleted!
+FTPDeletedPre=The FTP account
+FTPDeletedPost=was deleted.
+FTPModifyPassHead=Modify FTP account Password
+FTPModAccount=FTP account:
+FTPModPass=New Password:
+FTPModifyPassTextPre=The FTP account
+FTPModifyPassTextPost=has now the password
+FTPModifyPassTextFinal=.
+FTPAddedHead=Add FTP Account
+FTPAccountAdded=FTP Account Added!
+FTPAccountPasswordChanged=Account Password Changed!
+FTPAddedTextPreAccount=The FTP account
+FTPAddedTextPrePass=with password
+FTPAddedTextPostPass=was added.
+FTPListHead=Existing FTP accounts
+FTPAddHead=Add FTP account
+FTPAddUsername=FTP User Name:
+FTPAddPassword=Password:
+FTPMaint=FTP Maintenance
+FTPDeletion=Account Deletion
+FTPDelconfirm=Are you sure you wish to delete the FTP account
+
+
+//FTP Anonymous
+MENUAnonFTP=Anonymous FTP Controls
+ANONSetupHead=Setup anonymous FTP access
+ANONSetupAllowOut=Allow anonymous access to
+ANONSetupAllowIn=Allow anonymous uploads to
+ANONSave=Save Settings
+ANONUpdated=Updated!
+ANONSetupSaved=Anonymous FTP access was setup.
+ANONMessageHead=Anonymous FTP Welcome Message
+ANONMessageText=Enter the message your visitors will see when they connect to your anonymous FTP server:
+ANONMessageSavedPre=When your visitors connect to your anonymous FTP server, they will see following welcome message:
+ANONSaveMessage=Save Message
+ANONMessageSavedPost=
+
+
+//FTP sessions
+FTPSessionHead=FTP Session Control
+FTPSSessionEndedHead=Terminate FTP session
+FTPSSessionEndedTextPre=The FTP session with pid
+FTPSSessionEndedTextPost=was terminated.
+FTPSAliveSessionsHead=Alive FTP sessions
+FTPSColumnSession=Session
+FTPSColumnLoginTime=Login time
+
+//Guestbook
+GBMainHead=Guestbook installation
+GBCode=Copy and paste following code into your HTML pages to call the guestbook:
+GBName=Name:
+GBEmail=Email:
+GBURL=URL:
+GBComments=Comments:
+GBSignButton=Sign Guestbook
+GBOptionsHead=Guestbook options
+GBEditTemplate=Edit Entropy template
+GBView=View guestbook
+GBManage=Manage guestbook
+GBAddEntry=Add guestbook entry
+
+//Htaccess edit
+EHAHead=Edit .htaccess
+EHAHint=Do NOT modify anything if you do not understand what you are doing. Do NOT remove any line if you do not know what exactly this line does. We are not responsible for any malfunction.
+EHAErrorPagesHead=Dynamic Error Pages
+EHAExamples=Examples:
+EHARedirectHead=Redirect your Domain or any Subdirectory
+EHARedirectText3=Enter a line like below to redirect your <span class="Emphasize">Domain</span> (it will not redirect if there is a request for a specific sub-page):
+EHARedirectText4=Enter a line like below to redirect a <span class="Emphasize">Subdirectory</span>:
+EHARedirectHint1=Hint: In both cases the target must be a full URL starting with http:// even if the target of the redirection is located in your domain.
+EHAEditHead=Edit <span class="Emphasize">.htaccess</span>
+EHAEditText=All commands must be entered in a separate line terminated by the &quot;Return&quot; key.<br>Do not touch if you are not sure of what you are doing.
+
+//Interchange
+ICHHead=Interchange Shopping Cart
+ICHInfo=Interchange shopping cart is a multilingual Red Hat product. If you need more information, please <span class="BoldText"><a href="http://interchange.redhat.com/">visit the Interchange homepage</a></span>.
+ICHInstallLinkPre=
+ICHInstallLinkLink=Click here
+ICHInstallLinkPost=to install your Interchange shopping cart.
+
+ICHInstalledDone=Your Interchange shopping cart is now installed
+ICHInstalledAdminLink=Enter the admin interface
+ICHInstalledAdminUsername=user name: interchange
+ICHInstalledAdminPass=password: pass
+ICHInstalledAdminInfo1=You should change these as soon as possible by clicking <span class="BoldText">Administration</span>, then select <span class="BoldText">Access option</span>.
+ICHInstalledAdminInfo2=Your shopping cart has a demo shop installed called "Construct" to give you an idea about how the system works. It is quite safe to modify this shop to fit your needs.
+ICHInstalledCustomerLink=Enter as customer
+
+//Latest Visitors
+LVLatestHead=Latest visitors
+
+//Logout
+LOLogout=Logout
+LOHead=Bye
+LODomainPre=
+LODomainPost=has been logged out. Thanks for using cPanel!
+LOLastLoginPre=Last login from:
+LOLastLoginPost=
+LORelogin=Click here to log in again
+
+//Mailing Lists
+MLDeletion=Account Deletion
+MLDelconfirm=Are you sure you wish to delete the list
+MLMaint=Mailing List Maintenance
+MLHead=Mailing lists
+MLColumnHead=List Name
+MLAddHead=Add Mailing List
+MLAddName=Mailing list name:
+MLAddPass=Password:
+MLDomain=Domain:
+MLCreate=Create
+MLCreated=Mailing List Created
+MLDeleted=Mailing List Deleted
+MLClear=Clear
+MLDeletedHead=Mailing list deleted
+MLDeletedPre=The mailing list
+MLDeletedPost=was successfully deleted.
+MLAddedHead=Add Mailing List
+MLAddedon=on
+MLAddedTextListPre=The mailing list
+MLAddedTextPassPre=with password
+MLAddedTextPassPost=was successfully created.
+
+//MIME
+MIMEHead=MIME Types
+MIMEExp=MIME types determine how specific files should be handled by the browser.
+MIMEInfoLinkPre=
+MIMEInfoLinkURL=http://httpd.apache.org/docs-2.0/mod/mod_mime.html#addtype
+MIMEInfoLinkText=Click here
+MIMEInfoLinkPost=to learn more about MIME types.
+MIMEAddHead=Add MIME types
+MIMEAddHint=Hint: MIME extensions are case sensitive.
+MIMEAddType=MIME Type
+MIMEAddExt=Extension(s)
+MIMEDelHead=Delete MIME types
+MIMEListDomain=Domain-wide defined MIME types
+MIMEListServer=System-wide defined MIME types
+MIMEAddedHead=MIME type added
+MIMEAddedMIMEPre=The MIME type
+MIMEAddedExtPre=has been assigned to the extension(s)
+MIMEAddedExtPost=.
+MIMEDeletedHead=MIME type deleted
+MIMEDeletedPre=The MIME type
+MIMEDeletedPost=has been deleted.
+
+//MX records
+MXMaint=DNS File MX Entry Maintenance
+MXChange=Change an MX Entry
+MXChangeButton=Change
+MXHead=MX Entries
+MXCurrent=Current MX Entries
+MXModify=Modify MX entry
+MXModifyDomainPre=Change MX for
+MXModifyMXPre=to:
+MXModifyMXPost=
+MXModifyHint=Hint: You must enter a FQDN (Fully Qualified Domain Name) as the MX destination.
+MXModifyWarnPre=Warning: Changing your MX to something besides mail.
+MXModifyWarnPost= will prevent us from managing your mail. Your email will no longer be sent to this server.
+MXSavedHead=MX Entry Saved
+MXSavedTextPre=The MX entry for
+MXSavedTextPost=has been changed to
+MXSavedTextFinal=.
+
+//No LogFile
+NLHead=File not found
+NLText=Can not find a log file in acceptable format for your domain.
+
+//PasswordProtect
+PPDDir=Password protect directory
+
+PPDNavHelp=Please select the folder you wish to protect by clicking on its name.<br>Open a folder by clicking on its icon.
+PPDHead=Allow access only to authorized users
+PPDReqPass=Directory requires a password to access via the web (you <span class="Hint">must</span> check this to activate password protection).
+PPDResname=Protected Resource Name (will display in browser's password mask):
+PPDAddButton=Add/modify authorized user
+
+PPDSetDirPre=The access permissions for
+PPDSetDirPost=have been set.
+PPDUserRemovedUserPost=have been removed.
+
+PPDSetPermDirPre=Set permissions for
+PPDSetPermDirPost=.
+PPDSaveButton=Save
+PPDActiveUsers=Active Users
+PPDDelUserButton=Delete User
+PPDAddHead=Add/modify authorized user
+PPDAddSetDirPre=Set permissions for
+PPDAddSetDirPost=.
+PPDUsername=User Name:
+PPDPassword=Password:
+PPDCPButton=Change Password
+PPDRemoveHead=Remove user's authorization
+PPDRemoveUserPre=Remove permissions for
+PPDRemoveUserPost=.
+PPDUserModified=User Modified
+PPDUserRemoved=User Removed
+PPDPermUpdated=Permissions Updated
+PPDRemoveButton=Remove user's authorization
+PPDSetHead=Set directory permissions
+PPDUserSetUserPre=The user
+PPDNowHasPaswd=now has the password
+PPDUserSetDirPre=can now access the directory
+PPDUserSetPassPre=using the password
+PPDUserSetPassPost=.
+PPDUserRemovedUserPre=The access permissions for the user
+
+//PGP Keys
+
+//PhpMyChat
+PCHInstallHead=Install PhpMyChat
+PCHInstallHint=Please be aware that installing a chat will use one MySQL database.
+PCHInstallInfo=You <b><span class="Hint">must</span></b> install the chat in a top level directory.
+PCHInstallExampleValidPre=Example:
+PCHInstallExampleNonValidPre=is a valid location to install the chat.
+PCHInstallExampleNonValidPost=is not.
+PCHInstallURL=Install PhpMyChat at this url:
+PCHInstallAdmin=Admin User Name
+PCHInstallPass=Admin Password
+PCHList=Your PhpMyChat Chatrooms
+PCHInstalledHead=Installing PhpMyChat
+PCHInstalledLinkPre=You can use the sample entry page at
+PCHInstalledLinkPost=
+
+//Pop Aging
+
+PAHead=E-mail Aging for
+PANumDays=Number of days to keep e-mail:
+PAInfo=Mail aging is the process in which e-mails will be removed from the server automatically, upon successful log out of a pop3 session.  This deletion will only occur if the messages are older then a specified amount of days.
+PANote= E-mail aging will only work with pop3 sessions.
+PAAdd=Set E-mail Aging Complete
+PAAddedTextPreEmail=E-mail aging for
+PAAddedTextPostEmail=has been set to
+PADays=Days.
+
+//RandomHTML
+RHHead=Random HTML
+RHInfo=<span class="BoldText">Random HTML</span> is a random html generator. It picks a quote string out of a list and inserts it in a web page. This can be used for "Quote of the day" and other similar things.
+RHCode=Add following code line into the HTML page that you want to display your random html:
+RHHint=Hint: Your HTML file MUST have the extension <span class="BoldText">.shtml</span> for this to work.
+RHEditHead=Edit Random HTML quotes
+RHSavedHead=Modify Random HTML quotes
+RHFilenamePre=
+RHFilenamePost=was saved.
+
+//Redirects
+RDAddHead=Add Redirect:
+RDAddTemp=Temporary
+RDAddPerm=Permanent
+RDDeleteHead=Remove Redirect:
+RDCurrentHead=Current Redirects:
+RDAddedHead=Redirect added
+RDAddedRedirectPre=Redirect
+RDAddedRedirectPost=was added.
+RDDeletedHead=Redirect removed
+RDDeletedRedirectPre=Redirect
+RDDeletedRedirectPost=was removed.
+
+//Search Engine
+SESetupHead=Setup Entropy search engine
+SECode=Copy and paste following code into your HTML pages to create an Entropy search engine form:
+SESearchFor=Search for
+SEEditTemplateHead=Edit Entropy template
+SEEditTemplatePre=
+SEEditTemplateLink=Click here
+SEEditTemplatePost=to edit the Entropy template.
+SEDoQuery=Execute search query
+SESearchButton=Search
+SERebuildHead=Rebuild Entropy search engine index
+SERebuildPre=
+SERebuildLink=Click here
+SERebuildPost=to rebuild the Entropy search engine index.
+SERebuildingHead=Rebuild Entropy search index
+SERebuildingText=Rebuilding Entropy search index
+SETemplateEditHead=Modify Entropy template
+SETemplateEditHint=Hint: modifications apply to the Entropy Guestbook and Entropy Search Engine template.
+SETemplateSavedTextPre=
+SETemplateSavedTextPost=was saved.
+
+//E-mail filtering
+EFFiltermaint=Filter Maintenance
+EFFilter=Filter
+EFThat=that
+EFDestination=Destination
+EFAddfilter=Add Filter
+EFFiltertest=Filter Test
+EFTesthint=Enter a complete e-mail message (including headers) below to see how it will be processed with the current filters in place.
+EFAddhint1=Example of valid destinations are "Discard", "|/home/user/email.pl" or "user@domain.com" (without quotes).
+EFAddhint3=<span class="highlights1">Hint:</span>To filter all mail that SpamAssassin has marked as with a spam score of 5.0 or greater then choose "SpamAssassin Spam Bar Header", "contains", and then enter "+++++" in the box.  (Note: if you wanted match a spam score of 4, you would use ++++.  A spam score of three would be +++, etc.)
+EFTestsubmit=Test Filter
+EFTrace=Filter Trace
+EFTraceresults=Filter Trace Results:
+EFActivate=Activate
+EFFrom=From
+EFSubject=Subject
+EFTo=To
+EFBody=Body
+EFAnyheader=Any Header
+EFSpamAssassinheader=SpamAssassin Spam Header
+EFEquals=equals
+EFMatchesregex=matches regex
+EFContains=contains
+EFBeginswith=begins with
+EFAddedtext=A filter has been added that sends all mail
+EFaddedto=to
+EFAddedto=to
+EFRemove=Remove Filter
+EFDeleted=has been deleted.
+
+
+//Spam Filters
+SFMainHead=Installed spam filters
+SFListPre=Mails will be deleted when
+SFListPost=
+SFAddHead=Add spam filter
+SFAddConditionPre=Block mails when
+SFAddFrom=From
+SFAddSubject=Subject
+SFAddTo=To
+SFAddBody=Body
+SFAddAnyHeader=Any header
+SFAddEquals=equals
+SFAddMatchesRegex=matches regex
+SFAddContains=contains
+SFAddBegins=begins
+SFAddConditionPost=
+SFDeletedHead=Spam filter deleted
+SFDeletedFilterPre=The spam filter
+SFDeletedFilterPost=was deleted.
+SFAddedHead=Spam filter added
+SFAddedConditionPre=A filter blocking all mail when
+SFAddedConditionPost=was added.
+
+//SpamAssassin
+SPATitle=Spam Message Filter Configuration
+SPAHead=SpamAssassin
+SPMessage1=SpamAssassin is an automated mail filter that uses a wide range of heuristic algorithms on email headers and message bodies to identify "SPAM" (unsolicited email). SpamAssassin is designed to identify and mark emails that score beyond your threshold value. An email's SpamAssassin score is the sum of values given to certain known spam characteristics.
+SPMessage2=For more information, please visit the developers' website: <a href="http://www.spamassassin.org" target="_blank">http://www.spamassassin.org</a>
+SPMessage3begin=To simply have the server DELETE and NOT deliver emails that are tagged as spam by SpamAssassin,
+SPaddspamfilterlink=click here 
+SPMessage3end=now.
+SPAStatusPre=SpamAssassin is currently:
+SPBoxStatusPre=Spam Box is currently:
+SPBoxMessage1=<p>This feature allows emails identified as spam by SpamAssassin to be delivered to a separate mail folder named "spam". If this folder is not regularly checked and emptied, it may cause your email or filesystem quotas to be exceeded, resulting in a failure to receive legitimate messages. You can easily use IMAP or Horde/IMP to check messages that are routed to this box. If you wish to use pop3 to check the spam box, just add "/spam" (without the quotes) to the end of your pop3 login. (Example: user@domain.tld/spam)</p><p>This feature's use is generally discouraged in favor of sorting and deleting spam messages using your mail client. Without Spam Box you can configure SpamAssassin to mark your email with an identifying subject (e.g. ***SPAM***), which can then be filtered out into an appropriate location.</p>
+SPAStatusPost=.
+SPAEnableButton=Enable SpamAssassin
+SPADisableButton=Disable SpamAssassin
+SPBoxEnableButton=Enable Spam Box
+SPBoxDisableButton=Disable Spam Box
+SPACLConfigureButton=Configure SpamAssassin
+SPNoRewrites=Please note that SpamAssassin is not configured for rewrites.  You should check the X-Spam-Bar header for the spam bar in your filter, or for simplicity, you can also check the X-Spam-Status header for Yes or No.
+SPConfigureButton=Configure SpamAssassin (required to rewrite subjects)
+SPAEnableDo=Attempting to enable SpamAssassin...
+SPBoxEnableDo=Attempting to enable Spam Box...
+SPADisableDo=Attempting to disable SpamAssassin...
+SPBoxDisableDo=Attempting to disable Spam Box...
+SPAStatusSwitchPre=SpamAssassin is now:
+SPBoxStatusSwitchPre=Spam Box is now:
+SPAConfiguration=SpamAssassin Configuration
+SPAConfigurationButton=Save
+SPAStatusSwitchPost=.
+SPASpamBoxHead=Spam Box
+SPAAddSpamFilter=Enabling SpamAssassin filtering
+SPAaddspamfilterresultbegin=Adding filter rule to discard messages with
+SPAaddspamfilterresultend= was added.
+
+//Email Address Trace
+EATHead=Email Address Trace
+EATEnter=Enter an email address to see the delivery path:
+EATShowRouteButton=Show Route
+EATLegend=Legend
+EATRoutingError=Mail Routing Error
+EATFilterAliasFile=Filter/Alias File
+EATSMTPDest=SMTP Destination
+EATLocalMailBox=Local MailBox
+
+//SQL Databases
+SQLDbHead=Existing MySQL Databases
+SQLUserHead=Existing MySQL users
+SQLCreateDbHead=Create MySQL database
+SQLCreateDbHintPre=Hint: The database name you enter will be prefixed with
+SQLCreateDbHintPost=
+SQLCreateDbName=MySQL Database:
+SQLCreateDbButton=Create MySQL database
+SQLCreateUserHead=Create MySQL user
+SQLCreateUserHintPre=Hint: The username you enter will be prefixed with
+SQLCreateUserHintPost=
+SQLCreateUserName=User Name:
+SQLCreateUserPass=Password:
+SQLCreateUserButton=Create MySQL user
+SQLGrantPermHead=Grant all permissions on a MySQL database to a MySQL user
+SQLGrantPermDb=MySQL Database:
+SQLGrantPermUser=Username:
+SQLGrantPermButton=Grant permissions
+SQLDeletedHead=Delete MySQL database
+SQLDeletedUserHead=Delete MySQL user
+SQLDeletedUserPre=The MySQL user
+SQLDeletedUserPost=has been deleted.
+SQLDelUserFromDbHead=Remove permissions on a MySQL database from a MySQL user
+SQLDelUserFromDbUserPre=All permissions of MySQL user
+SQLDelUserFromDbDbPre=on database
+SQLDelUserFromDbDbPost=were removed.
+SQLAddedHead=Create MySQL database
+SQLAddedPre=MySQL database
+SQLAddedPost=added.
+SQLUserAddedHead=Add MySQL user
+SQLUserAddedUserPre=MySQL user
+SQLUserAddedPassPre=with password
+SQLUserAddedPassPost=added.
+SQLGrantHead=Grant MySQL permissions
+SQLGrantDbPre=Granted all permissions on MySQL database
+SQLGrantUserPre=to MySQL user
+SQLGrantUserPost=.
+
+
+//Stats -- only used for subdomains stats
+
+SSTAnalog=Analog
+SSTWebalizer=Webalizer
+
+//Subdomains
+SUBListHead=Existing Subdomains
+SUBAddHead=Add subdomain
+SUBAddHint1=Hint: This feature must be enabled for your account before you can use it.
+SUBAddHint2=Hint: You can not add subdomains if your domain name does not correctly resolve yet.
+SUBCreate=Create a Subdomain
+SUBDeleteHead=Delete subdomain
+SUBAddedHead=Add Subdomain
+SUBAddedPre=Subdomain
+SUBAddedPost=added.
+SUBDeletedHead=Delete a Subdomain
+SUBDeletedPre=Subdomain
+SUBDeletedPost=deleted.
+SUBDNSHint=Subdomains rely on the DNS system in order to function, which means that your DNS information must propagate throughout the different DNS servers on the Internet before your subdomain becomes fully active. This process on the average takes a few hours.
+SUBFTPHint= If you wish to grant virtual ftp access to this subdomain, just create an FTP user with the same username as the subdomain base name that is listed in the Subdomain column below
+SUBAddRedirectHead=Setup Redirection
+SUBAddRedirectButton=Setup Redirection
+SUBDelRedirectHead=Remove Redirection
+SUBDelRedirectButton=Remove Redirection
+SUBModify=Modify a Subdomain
+SUBRedirectSetupHead=Redirect subdomain
+SUBRedirectSetupSubPre=Redirect Subdomain
+SUBRedirectSetupSubPost=to
+SUBRedirectSetupTargetPost=
+SUBRedirectSetupHintPre=If you wish to redirect to a file (example:
+SUBRedirectSetupHintPost= be sure to end the URL with a trailing /.)
+SUBAddedRedirectHead=Redirect subdomain
+SUBAddedRedirectSubPre=
+SUBCurrentRedirect= is currently being redirected to: 
+SUBAddedRedirectTargetPre=is now being redirected to
+SUBAddedRedirectTargetPost=
+SUBDeletedRedirectionHead=Redirection removed
+SUBReturn=Return to Subdomain Main
+SUBSubRedirect=Subdomain Redirection
+
+//Submit to engines
+SSMainHead=Submit your site to search engines
+SSSelectEngines=Please select which engines to submit to
+SSURL=URL:
+SSEmail=E-mail:
+SSComments=Comments:
+SSKeywords=Keywords:
+SSLanguage=Site language:
+SSLangChinese=Chinese
+SSLangDutch=Dutch
+SSLangFrench=French
+SSLangGerman=German
+SSLangEnglish=English
+SSLangItalian=Italian
+SSLangJapanese=Japanese
+SSLangNorwegian=Norwegian
+SSLangPortuguese=Portuguese
+SSLangSpanish=Spanish
+SSLangSwedish=Swedish
+SSLangOther=Other
+SSCountry=Country:
+SSCategory=Category:
+SSCatAutos=Autos
+SSCatCareers=Careers
+SSCatClassAuctions=Classifieds/Auctions
+SSCatCompInternet=Computers/Internet
+SSCatEducation=Education
+SSCatEntertainment=Entertainment
+SSCatGames=Games
+SSCatHealth=Health
+SSCatHomeRealEstate=Home/Real Estate
+SSCatLifestyle=Lifestyle
+SSCatLocal=Local
+SSCatMoneyInvesting=Money/Investing
+SSCatNews=News
+SSCatPeopleChat=People/Chat
+SSCatShopping=Shopping
+SSCatSmallBusiness=Small Business
+SSCatSports=Sports
+SSCatTravel=Travel
+SSCatOther=Other
+SSEDoneHead=Submit to search engines
+SSEDoneInfo=Results of your request:
+
+//Telnet
+TNHead=SSH/Shell Access
+TNNotice=For security reasons, shell access is not enabled by default. In order to activate shell access on your account, you will need to fax or mail a copy of your driver's license, passport or other photo id to customer service.
+TNWarning=Your session wll be logged. Any attempt to copy/delete/view files not belonging to you, will result to your hosting account being terminated!
+TNNoJava=Your browser is either outdated or you have disabled <a href="http://java.sun.com/">Java</a>. Please update your browser or enable Java to use this applet!
+TNLoadHead=Loading Telnet applet
+TNLoadWait=Loading. Please Wait...
+
+//Traceroute
+TRHead=Traceroute
+TRInfo=Traceroute from server to you:
+
+//Webalizer
+WLHead=Webalizer
+WLSelectMonth=Please select the month that you wish to view statistics for:
+
+//XMB Board
+XMBInstallHead=Install an XMB Board
+XMBInstallHint=Please be aware that installing a board will use one MySQL database.
+XMBInstallInfo=You <b><span class="Hint">must</span></b> install the board in a top level directory.
+XMBInstallExampleValidPre=Example:
+XMBInstallExampleNonValidPre=is a valid location to install the board.
+XMBInstallExampleNonValidPost=is not.
+XMBInstallURL=Install board at this url:
+XMBList=Your XMB Boards
+XMBRemove=Remove a board
+XMBInstalledHead=Installing XMB Board
+XMBInstalledLinkPre=XMB Board files have been copied to the target directory. Next
+XMBInstalledLinkLink=click here
+XMBInstalledLinkPost=to setup the MySQL database.
+XMBInstalledRegisterPre=When you are finished,
+XMBInstalledRegisterLink=register
+XMBInstalledRegisterPost=to your board as the first account created will be the admin account.
+
+//Countries List. Currently only used in Submit to Search Engines. You may want to leave it as is.
+CountriesAfghanistan=Afghanistan
+CountriesAlbania=Albania
+CountriesAlgeria=Algeria
+CountriesAmericanSamoa=American Samoa
+CountriesAndorra=Andorra
+CountriesAngola=Angola
+CountriesAnguilla=Anguilla
+CountriesAntarctica=Antarctica
+CountriesAntiguaBarbuda=Antigua and Barbuda
+CountriesArgentina=Argentina
+CountriesArmenia=Armenia
+CountriesAruba=Aruba
+CountriesAustralia=Australia
+CountriesAustria=Austria
+CountriesAzerbaijan=Azerbaijan
+CountriesBahamas=Bahamas
+CountriesBahrain=Bahrain
+CountriesBangladesh=Bangladesh
+CountriesBarbados=Barbados
+CountriesBelarus=Belarus
+CountriesBelgium=Belgium
+CountriesBelize=Belize
+CountriesBenin=Benin
+CountriesBermuda=Bermuda
+CountriesBhutan=Bhutan
+CountriesBolivia=Bolivia
+CountriesBosniaHerzegowina=Bosnia and Herzegowina
+CountriesBotswana=Botswana
+CountriesBouvetIsland=Bouvet Island
+CountriesBrazil=Brazil
+CountriesBritishIndianOceanTerritory=British Indian Ocean Territory
+CountriesBruneiDarussalam=Brunei Darussalam
+CountriesBulgaria=Bulgaria
+CountriesBurkinaFaso=Burkina Faso
+CountriesBurundi=Burundi
+CountriesCambodia=Cambodia
+CountriesCameroon=Cameroon
+CountriesCanada=Canada
+CountriesCapeVerde=Cape Verde
+CountriesCaymanIslands=Cayman Islands
+CountriesCentralAfricanRepublic=Central African Republic
+CountriesChad=Chad
+CountriesChile=Chile
+CountriesChina=China
+CountriesChristmasIsland=Christmas Island
+CountriesCocosIslands=Cocos (Keeling) Islands
+CountriesColombia=Colombia
+CountriesComoros=Comoros
+CountriesCongo=Congo
+CountriesCookIslands=Cook Islands
+CountriesCostaRica=Costa Rica
+CountriesCoteDIvoire=Cote D'Ivoire
+CountriesCroatia=Croatia
+CountriesCuba=Cuba
+CountriesCyprus=Cyprus
+CountriesCzechRepublic=Czech Republic
+CountriesDenmark=Denmark
+CountriesDjibouti=Djibouti
+CountriesDominica=Dominica
+CountriesDominicanRepublic=Dominican Republic
+CountriesEastTimor=East Timor
+CountriesEcuador=Ecuador
+CountriesEgypt=Egypt
+CountriesElSalvador=El Salvador
+CountriesEquatorialGuinea=Equatorial Guinea
+CountriesEritrea=Eritrea
+CountriesEstonia=Estonia
+CountriesEthiopia=Ethiopia
+CountriesFalklandIslands=Falkland Islands (Malvinas)
+CountriesFaroeIslands=Faroe Islands
+CountriesFiji=Fiji
+CountriesFinland=Finland
+CountriesFrance=France
+CountriesFranceMetropolitan=France, Metropolitan
+CountriesFrenchGuiana=French Guiana
+CountriesFrenchPolynesia=French Polynesia
+CountriesFrenchSouthernTerritories=French Southern Territories
+CountriesGabon=Gabon
+CountriesGambia=Gambia
+CountriesGeorgia=Georgia
+CountriesGermany=Germany
+CountriesGhana=Ghana
+CountriesGibraltar=Gibraltar
+CountriesGreece=Greece
+CountriesGreenland=Greenland
+CountriesGrenada=Grenada
+CountriesGuadeloupe=Guadeloupe
+CountriesGuam=Guam
+CountriesGuatemala=Guatemala
+CountriesGuinea=Guinea
+CountriesGuinea-Bissau=Guinea-Bissau
+CountriesGuyana=Guyana
+CountriesHaiti=Haiti
+CountriesHeardMcDonaldIslands=Heard and Mc Donald Islands
+CountriesHonduras=Honduras
+CountriesHongKong=Hong Kong
+CountriesHungary=Hungary
+CountriesIceland=Iceland
+CountriesIndia=India
+CountriesIndonesia=Indonesia
+CountriesIran=Iran
+CountriesIraq=Iraq
+CountriesIreland=Ireland
+CountriesIsrael=Israel
+CountriesItaly=Italy
+CountriesJamaica=Jamaica
+CountriesJapan=Japan
+CountriesJordan=Jordan
+CountriesKazakhstan=Kazakhstan
+CountriesKenya=Kenya
+CountriesKiribati=Kiribati
+CountriesKoreaNorth=Korea (North)
+CountriesKoreaSouth=Korea (South)
+CountriesKuwait=Kuwait
+CountriesKyrgyzstan=Kyrgyzstan
+CountriesLao=Lao
+CountriesLatvia=Latvia
+CountriesLebanon=Lebanon
+CountriesLesotho=Lesotho
+CountriesLiberia=Liberia
+CountriesLibya=Libya
+CountriesLiechtenstein=Liechtenstein
+CountriesLithuania=Lithuania
+CountriesLuxembourg=Luxembourg
+CountriesMacau=Macau
+CountriesMacedonia=Macedonia
+CountriesMadagascar=Madagascar
+CountriesMalawi=Malawi
+CountriesMalaysia=Malaysia
+CountriesMaldives=Maldives
+CountriesMali=Mali
+CountriesMalta=Malta
+CountriesMarshallIslands=Marshall Islands
+CountriesMartinique=Martinique
+CountriesMauritania=Mauritania
+CountriesMauritius=Mauritius
+CountriesMayotte=Mayotte
+CountriesMexico=Mexico
+CountriesMicronesia=Micronesia
+CountriesMoldova=Moldova
+CountriesMonaco=Monaco
+CountriesMongolia=Mongolia
+CountriesMontserrat=Montserrat
+CountriesMorocco=Morocco
+CountriesMozambique=Mozambique
+CountriesMyanmar=Myanmar
+CountriesNamibia=Namibia
+CountriesNauru=Nauru
+CountriesNepal=Nepal
+CountriesNetherlands=Netherlands
+CountriesNetherlandsAntilles=Netherlands Antilles
+CountriesNewCaledonia=New Caledonia
+CountriesNewZealand=New Zealand
+CountriesNicaragua=Nicaragua
+CountriesNiger=Niger
+CountriesNigeria=Nigeria
+CountriesNiue=Niue
+CountriesNorfolkIsland=Norfolk Island
+CountriesNorthernMarianaIslands=Northern Mariana Islands
+CountriesNorway=Norway
+CountriesOman=Oman
+CountriesPakistan=Pakistan
+CountriesPalau=Palau
+CountriesPanama=Panama
+CountriesPapuaNewGuinea=Papua New Guinea
+CountriesParaguay=Paraguay
+CountriesPeru=Peru
+CountriesPhilippines=Philippines
+CountriesPitcairn=Pitcairn
+CountriesPoland=Poland
+CountriesPortugal=Portugal
+CountriesPuertoRico=Puerto Rico
+CountriesQatar=Qatar
+CountriesReunion=Reunion
+CountriesRomania=Romania
+CountriesRussia=Russia
+CountriesRwanda=Rwanda
+CountriesSaintKittsAndNevis=Saint Kitts and Nevis
+CountriesSaintLucia=Saint Lucia
+CountriesSaintVincentAndGrenadines=Saint Vincent and the Grenadines
+CountriesSamoa=Samoa
+CountriesSanMarino=San Marino
+CountriesSaoTomeAndPrincipe=Sao Tome and Principe
+CountriesSaudiArabia=Saudi Arabia
+CountriesSenegal=Senegal
+CountriesSeychelles=Seychelles
+CountriesSierraLeone=Sierra Leone
+CountriesSingapore=Singapore
+CountriesSlovakia=Slovakia
+CountriesSlovenia=Slovenia
+CountriesSolomonIslands=Solomon Islands
+CountriesSomalia=Somalia
+CountriesSouthAfrica=South Africa
+CountriesSpain=Spain
+CountriesSriLanka=Sri Lanka
+CountriesStHelena=St. Helena
+CountriesStPierreAndMiquelon=St. Pierre and Miquelon
+CountriesSudan=Sudan
+CountriesSuriname=Suriname
+CountriesSvalbardAndJanMayenIslands=Svalbard and Jan Mayen Islands
+CountriesSwaziland=Swaziland
+CountriesSweden=Sweden
+CountriesSwitzerland=Switzerland
+CountriesSyria=Syria
+CountriesTaiwan=Taiwan
+CountriesTajikistan=Tajikistan
+CountriesTanzania=Tanzania
+CountriesThailand=Thailand
+CountriesTogo=Togo
+CountriesTokelau=Tokelau
+CountriesTonga=Tonga
+CountriesTrinidadAndTobago=Trinidad and Tobago
+CountriesTunisia=Tunisia
+CountriesTurkey=Turkey
+CountriesTurkmenistan=Turkmenistan
+CountriesTurksAndCaicosIslands=Turks and Caicos Islands
+CountriesTuvalu=Tuvalu
+CountriesUSMinorOutlyingIslands=U.S. Minor Outlying Islands
+CountriesUganda=Uganda
+CountriesUkraine=Ukraine
+CountriesUnitedArabEmirates=United Arab Emirates
+CountriesUnitedKingdom=United Kingdom
+CountriesUSA=U.S.A.
+CountriesUruguay=Uruguay
+CountriesUzbekistan=Uzbekistan
+CountriesVanuatu=Vanuatu
+CountriesVaticanCityState=Vatican City State (Holy See)
+CountriesVenezuela=Venezuela
+CountriesVietNam=Viet Nam
+CountriesVirginIslandsBritish=Virgin Islands (British)
+CountriesVirginIslandsUS=Virgin Islands (U.S.)
+CountriesWallisAndFutunaIslands=Wallis and Futuna Islands
+CountriesWesternSahara=Western Sahara
+CountriesYemen=Yemen
+CountriesYugoslavia=Yugoslavia
+CountriesZaire=Zaire
+CountriesZambia=Zambia
+CountriesZimbabwe=Zimbabwe
+CountriesOther=Other
+
+
+
+//2002-04-22
+
+//SQL Access Hosts
+SQLAccessHostsHead=Access Hosts
+SQLAddAccessHostsHead=Add Access Host
+SQLAddAccessHostText=Host (% wildcard is allowed):
+SQLAddedHostHead=Access Host Added
+SQLAddedHostPre=Added Host
+SQLAddedHostPost=to the access list.
+SQLDeletedHostHead=Access Host Deleted
+SQLDeletedHostPre=Deleted Host
+SQLDeletedHostPost=from the access list.
+
+//Pop Mailbox Quota before Add
+EAAddQuotaPre=Mailbox quota (optional)
+EAAddQuotaPost=MB
+EAAddQuotaDefault=20
+
+//POP Mailbox Quota after Add
+EAAddedQuotaPre= (Quota:
+EAAddedQuotaPost= MB)
+
+//HotLinks, T=TITLE Tag, Nav=Navigation, MENU=Menu Item for index.html
+THotLink=HotLink Protection
+NavHotLink=HotLink Protection
+MENUHotLink=HotLink Protection
+HLPStatusHead=HotLink Protection Status
+HLPStatusPre=HotLink protection is currently
+HLPStatusPost=.
+HLPEnableHead=Enable/Modify HotLink Protection
+HLPAllowedURLs=URLs to allow access:
+HLPProtectedExtensions=Extensions to protect (separate by commas):
+HLPRedirect=Redirect HotLink attempts to:
+HLPEnableButton=Enable/Modify
+HLPDisableHead=Disable HotLink Protection
+HLPDisableButton=Disable
+HLPEnabledHead=HotLink Protection Enabled
+HLPEnabledReferrers=Allowed Referrers:
+HLPEnabledExtensions=Protected Extensions:
+HLPDisabledHead=HotLink Protection Disabled
+HLPDisabledText=The HotLink Protection for your domain has been disabled.
+
+//IP Deny Manager
+IPDMMainHead=IP Deny Manager
+IPDMHint=This feature will allow you to block a range of IP addresses to prevent them from accessing your site. You can also enter a fully qualified domain name, and the IP Deny Manager will attempt to resolve it to an IP address for you.
+IPDMAdd=Add an IP to deny:
+IPDMIPorDomain=IP Address or Domain:
+IPDMAddButton=Add
+IPDMRemoveButton=Remove
+IPDMRemove=Remove an IP Deny:
+IPDMCurrent=Current IP addresses being blocked
+IPDMPreDel=The IP address
+IPDMPostDel=will now be able to access your site.
+
+
+//2002-05-18
+
+//Backup - added MySQL, Aliases, Filters backup
+BUBackupHead=Backups
+BUFullBackups=Full Backup
+BUMySQL=MySQL Databases
+BUAlias=Email Domain Forwarders and Filters
+BUPreviousSaved=Previous full backups saved in home directory:
+BUFullBackupTitle=Generate/Download a Full Backup
+BUFullBackupProgress=Full Backup in Progress...
+BUFullCompleteMessage=Once the full backup of your account has been completed you will receive an email message to the address you specified
+BUDestination=Backup Destination:
+BUEmailAddy=Email Address:
+BURemoteServer=Remote Server (FTP/SCP only):
+BURemoteUser=Remote User (FTP/SCP only):
+BURemotePass=Remote Password (FTP/SCP only):
+BUGenerageButton=Generate Backup
+BUFullOptHome=Home Directory
+BUFullOptRemoteFTP=Remote FTP Server
+BUFullOptRemoteFTPPasv=Remove FTP Server (Passive mode transfer)
+BUHomeBackupTitle=Download a home directory Backup
+BUSQLBackupTitle=Download a MySQL Database Backup
+BUSQLRestoreTitle=Restore a MySQL Database Backup
+BUAliasFilterRestoreTitle=Restore an Email Domain Forwarder/Filter Backup
+BUAliasBackupTitle=Download an Aliases Backup
+BUFilterBackupTitle=Download a Filters Backup
+BUAliasList=Aliases
+BUFilterList=Filters
+BURestoreHead=Restore
+BUHomeRestoreTitle=Restore a Home Directory Backup
+BUSQLRestoreTitle=Restore a MySQL Database
+BUAliasFilterRestoreTitle=Restore an Email Domain Forwarder/Filter
+
+//XMB Upgrade
+XMBUpgradeHead=Upgrading your XMB-Board...
+XMBInstalledComplete=XMB-Board Setup Complete
+XMBInstalledCompleteBack=Back
+
+//Domain list option for autoresponders, forwarders etc.
+EADefaultModifyEnterPre=Enter the (complete) e-mail address to receive all unrouted mail for
+EADefaultModifyEnterPost=:
+EADefaultSetTextPre=All unrouted mail for
+EADefaultSetTextPost=is now going to:
+MLAddDomain=Domain:
+
+//Oooops, looks like we have forgotten this:
+NavDefault=Default e-mail address
+TDefault=Default e-mail address
+
+//2002-07-10
+TServiceStatus=Service Status
+MENUServiceStatus=Service Status
+NavFTPsessions=FTP sessions
+NavFTPAnonMessage=Anonymous FTP Message
+MENUCGIEmail=CGI email
+
+//2002-08-13
+CPImagesLanguage=english
+ASIDomain=Domain
+ASIWebmail=Webmail
+ASIReadDefaultMail=Read default email account
+ASIReadOtherMail=Read secondary email account
+ASIReadOtherUsername=User Name:
+ASIReadOtherPassword=Password:
+ASIPathHome=Account base path
+ASIPathWeb=Account web path
+TBandwidth=Bandwidth
+
+MENUAddondomains=Addon Domain Maintenance
+MENUAddonRedirection=Addon Domain Redirection
+TAddondomains=Addon Domains
+NavAddondomains=Addon Domains
+AODInfo=Addon Domains are domain names that point to subdirectories within your account.
+AODListHead=Current Addon Domains
+AODAddHead=Add Addon Domain
+AODAddDomainName=New Domain Name:
+AODAddUserName=Username/directory/subdomain Name:
+AODAddPassword=Password:
+AODAddHint=Hint: This feature must be enabled for your account before you can use it. Addon Domains will not be functional unless the domain name is registered with a valid registrar and configured to point to our DNS servers.
+AODAddSubmit=Add Domain!
+AODAddition=Addon Domain Additions
+AODRemoval=Addon Domain Removal
+AODCreate=Create an Addon Domain
+AODDeleteHead=Remove Addon Domain
+AODDelSubmit=Delete Domain!
+AODAddedHead=Add Addon Domain
+AODAddedPre=The Addon Domain
+AODAddedPost=has been setup.
+AODAddedAccessPre=It can be accessed via the subdomain
+AODAddedAccessPost=.
+AODAddedFTPAccessUsernamePre=FTP access has been granted with the user name
+AODAddedFTPAccessUsernamePost=and the password
+AODAddedFTPAccessPasswordPost=.
+AODDeletedHead=Remove Addon Domain
+AODDeletedPre=The Addon Domain
+AODDeletedPost=was removed.
+AODSetupRedirButton=Setup Redirection
+AODSetupErrorPre=could not be setup.   The subdomain
+AODSetupErrorPost=was not setup either.
+AODAddFail=Addon Domain addition failed!
+AODRemoveRedirButton=Remove Redirection
+ADDReturn=Return to Addon Domains Main
+AODModify=Modify Addon Domain
+MENUParkdomains=Parked Domain Maintenance
+TParkdomains=Parked Domains
+NavParkdomains=Parked Domains
+PARKInfo1=Domain pointers allow you to "point" or "park" additional domain names to your existing hosting account. This will allow users to also reach your website when entering the "parked" or "pointed" domain into their browsers.
+PARKListHead=Current Parked Domains
+PARKAddHead=Park Domain
+PARKAddDomainName=New Domain Name:
+PARKAddSubmit=Add Domain!
+PARKAddHint=Hint: Domains must be registered with a valid registrar before they can be parked. In addition, they will not be functional unless they are configured to point to our DNS servers.
+PARKDeleteHead=Remove Parked Domain
+PARKDelSubmit=Remove Domain!
+PARKAddedHead=Park Domain
+PARKAddedPre=The Domain
+PARKAddedPost=has been parked.
+PARKDeletedHead=Remove Parked Domain
+PARKDeletedPre=The Parked Domain
+PARKDeletedPost=was removed.
+PARKAddition=Parked Domain Additions
+PARKRemoval=Parked Domain Removal
+
+
+//2002-10-06 Existing variables modified to reflect new functions. Replaced lines 606-608.
+EAModifiedPassHead=POP e-mail account modified
+EAModifiedPassAccountPre=The changes for the e-mail account
+EAModifiedPassAccountPost=were saved.
+
+IDXDocs=Documentation
+
+TRawLogManager=Raw Log Manager
+postgresadmin-exceed=Sorry, you have exceeded the maximum allowed databases.
+postgresadmin-nouser=No user name given
+postgresadmin-nodb=No database name given
+postgresadmin-nowildcards=Wildcards are not allowed here!
+postgresadmin-notutilized=This action is not utilized.
+postgresadmin-nopostgresuser=No PostgreSQL user found. Cannot administrate database!
+postgresadmin-unrecognizedcmd=Command Unrecognized.
+
+INDXPostgre=Postgre Databases
+
+
+MENUBoxTrapper=BoxTrapper Spam Trap
+prog-BoxTrapper=BoxTrapper
+status-BoxTrapper=Status:
+configsettings-BoxTrapper=Configure Settings
+editlists-BoxTrapper=Edit Forward/White/Black/Ignore Lists
+editlistforward-BoxTrapper=Edit Forward List
+editlistwhite-BoxTrapper=Edit White List
+editlistignore-BoxTrapper=Edit Ignore List
+editlistblack-BoxTrapper=Edit Black List
+listforwarddesc-BoxTrapper=The forward list is a list of email address where white listed and verified mail<br/>should be sent to in addition to the address BoxTrapper is protecting.
+listwhitedesc-BoxTrapper=The white list is a list of users or subjects that will be allowed<br/>into your inbox with a confirmation.
+listblackdesc-BoxTrapper=The black list is a list of users or subjects to prevent from emailing you.<br/>The user will also get a back a warning message of your choice.
+listignoredesc-BoxTrapper=The ignore list is a list of users or subjects to prevent from emailing you.
+reviewlog-BoxTrapper=Review Log
+reviewqueue-BoxTrapper=Review Queue
+setupmsgbegin-BoxTrapper=BoxTrapper has been
+setupmsgend-BoxTrapper=on your accout.
+emailin-BoxTrapper=Email addresses going to this account (comma separated list)
+daystokeep-BoxTrapper=How many days should logs and messages in queue be kept
+save-BoxTrapper=Save
+saveconfirm-BoxTrapper=Your changes have been saved.
+searchqueue-BoxTrapper=Search Queue:
+searchin-BoxTrapper=Search In:
+sender-BoxTrapper=Sender
+examples-BoxTrapper=Examples:
+subject-BoxTrapper=Subject
+body-BoxTrapper=Body
+searchstring-BoxTrapper=for search string:
+select-BoxTrapper=Select
+from-BoxTrapper=From
+time-BoxTrapper=Time
+chooseact-BoxTrapper=Choose an action:
+whtlstdeliverall-BoxTrapper=Whitelist and deliver all messages from this sender.
+whtlstdeliver-BoxTrapper=Whitelist and deliver this message from this sender.
+deliverall-BoxTrapper=Deliver all messages from this sender.
+deliver-BoxTrapper=Deliver this message.
+deletemsg-BoxTrapper=Delete this message from the queue.
+deleteallmsg-BoxTrapper=Delete all messages from this sender.
+blklstdeletemsg-BoxTrapper=Delete this message and blacklist the sender.
+ignorelstdeletemsg-BoxTrapper=Delete this message and add sender to ignore list.
+go-BoxTrapper=Go
+msgpreview-BoxTrapper=Message Preview
+actcomplete-BoxTrapper=The requested action has been completed:
+enabled-BoxTrapper=enabled
+disabled-BoxTrapper=disabled
+enable-BoxTrapper=Enable
+disable-BoxTrapper=Disable
+promissing-BoxTrapper=Sorry, this copy of cPanel Pro is missing the license file!
+manage-BoxTrapper=Manage
+unablelocate-BoxTrapper=Unable to locate home directory for account:
+noemaildirbegin-BoxTrapper=Email directory for account
+noemaildirend-BoxTrapper=does not exist!
+whtlistadd-BoxTrapper=was added to your white list.
+blklistadd-BoxTrapper=was added to your black list.
+ignlistadd-BoxTrapper=was added to your ignore list.
+queuedmsgbegin-BoxTrapper=queued message from
+queuedmsgdlvend-BoxTrapper=was delivered.
+queuedmsgdeleteend-BoxTrapper=was deleted.
+delete-BoxTrapper=Delete
+nosrchresults-BoxTrapper=No Search Results
+notavailable-BoxTrapper=NA
+editbtn-BoxTrapper=Edit
+resetdefault-BoxTrapper=Reset to default
+queuedmsgsdeliveredbegin-BoxTrapper=Queued messages from
+queuedmsgsdeliveredend-BoxTrapper=were delivered.
+description-config-BoxTrapper=Allows you to set what email addresses are associated with the BoxTrapper and also how long logs and queue messages are kept.
+description-confirmmsg-BoxTrapper=Allows you to change the different messages that users will receive when sending messages to an account with the BoxTrapper enabled.
+description-blackWhiteList-BoxTrapper=Allows you to permit, deny, and ignore email messages from certain accounts.
+description-reviewLog-BoxTrapper=Give an overview of all messages sent to your email accounts for each day.
+description-reviewQueue-BoxTrapper=Will show all messages that are awaiting confirmation.
+blklistlegend-BoxTrapper=BoxTrapper Black List Editor
+blklistfor-BoxTrapper=BoxTrapper Black List for
+configurefor-BoxTrapper=Configure BoxTrapper for:
+boxtrapperdsc-BoxTrapper=BoxTrapper protects your inbox from spam by forcing all people not on your<br/>white list to reply to a verification email before they can send mail to you.
+enablebegin-BoxTrapper=BoxTrapper has been
+configlegend-BoxTrapper=BoxTrapper Configuration
+mytest-Boxtrapper=my test Box Trap
+listslegend-BoxTrapper=BoxTrapper Lists
+listsfor-BoxTrapper=BoxTrapper lists for
+msgeditlegend-BoxTrapper=BoxTrapper Message Editor
+editmsgfor-BoxTrapper=BoxTrapper message for
+editmsgdsc-BoxTrapper=When editing the verify message, you must leave 'verify#%msgid%' in<br/>the subject line exactly as it appears.   If you change this part of the<br/>subject line, BoxTrapper will not function correctly.
+verifymsglegend-BoxTrapper=BoxTrapper Verification and Black List Messages
+editverifymsgfor-BoxTrapper=BoxTrapper message for
+forwardlistlegend-BoxTrapper=BoxTrapper Forward List Editor
+forwardlistfor-BoxTrapper=BoxTrapper Forward List for
+ignorelistlegend-BoxTrapper=BoxTrapper Ignore List Editor
+ignorelistfor-BoxTrapper=BoxTrapper Ignore List for
+currentstatus-BoxTrapper=Current Status:
+editconfirmations-BoxTrapper=Edit Confirmation Messages
+queuefor-BoxTrapper=BoxTrapper queue for
+multimsgactionlegend-BoxTrapper=BoxTrapper Multi Message Action
+searchresultslegend-BoxTrapper=BoxTrapper Search Results
+newsearch-BoxTrapper=New Search:
+resetmessagesfor-BoxTrapper=BoxTrapper messages for
+resetmsgconfirm-BoxTrapper=The requested message has been reset.
+configuredfor-BoxTrapper=Configured BoxTrapper for
+logfor-BoxTrapper=BoxTrapper Log for
+queuelegend-BoxTrapper=BoxTrapper Queue
+whtlstlegend-BoxTrapper=BoxTrapper White List Editor
+whtlstfor-BoxTrapper=BoxTrapper White List for
+autowhitelist-BoxTrapper=Enable Automatic White-listing
+multimsgaction-BoxTrapper=BoxTrapper Multi Message Action
+AODSetupRedirectionHead=Redirect Domain to URL
+AODRemoveRedirectionHead=Remove Domain redirection
+FMUploadLimitsMessage=File uploads are restricted to prevent account issues caused by exceeding your file system quota
+FMfreespaceBEGIN=<table border="0"><tr><td><b>Current available free-space:</b></td><td>
+FMfreespaceEND= MB</td></tr>
+FMUploadMaxBytesBEGIN=<tr><td><b>Maximum file size for upload:</b></td><td>
+FMUploadMaxBytesEND= MB</td></tr>
+FMUploadLeaveBytesBEGIN=<tr><td><b>Required free space after upload:</b></td><td>
+FMUploadLeaveBytesEND= MB</td></tr></table><br />
+
+# WHM Language
+description-abbr=Description
+description-text=Description
+current-abbr=Current
+disabled-text=Disabled
+enabled-text=Enabled
+status-text=Status:
+results-text=Results:
+dedicated_ip_title=Dedicated IP
+cgi_access_title=CGI Access
+frontpage_title=Frontpage Extensions
+shell_access_title=Shell Access
+cpanel_theme_title=cPanel Theme
+feature_list_title=Feature List
+package_name_title=Package Name
+max_ftp_title=Max FTP Accounts
+max_email_title=Max Email Accounts
+max_list_title=Max Email Lists
+max_sql_title=Max Databases
+max_sub_title=Max Sub Domains
+max_parked_title=Max Parked Domains
+max_addon_title=Max Addon Domains
+quota_title=Quota
+bandwidth_title=Bandwidth
+edit_text=Edit
+reset_text=Reset
+delete_text=Delete
+no=no
+yes=yes
+select_package=Select Package
+remove_package=Remove Package
+packages=Packages
+new_package_name=New Package Name
+pkg_name_convention=<b>Note:</b> Package names <em>preceded</em> by a reseller's username followed by an underscore can only be seen by the corresponding reseller.
+can_not_delete_package_you_do_not_own=You cannot delete a package you do not own!
+cannot_delete_package=You must move all accounts using the package to another package before it can be removed!
+pkg_deletion_results=Package Deletion Results for
+package_delete_failed=An error occurred while attempting to delete the package:
+package_delete_success=The package was successfully deleted.
+
+
+
+setrhash-description1=A remote access key is used for automatic account creation scripts, external billing software, and various other things that need to call the WHM  to create / remove / modify accounts. You can learn more about using this feature <a href="http://www.cpanel.net/plugins/devel/cpacct.html" target="_blank">here.</a>
+setrhash-description2=A reference implementation of an automatic account creation script is available <a href="/cpanel-autosignup.tar.gz">here</a>. <b>This script is only a sample.</b> You should modify it to provide account signup security based upon your account setup policies.
+setrhash-description3=Note that generating a new remote access key will invalidate any existing remote access key.  Systems using the existing key will no longer be able to connect if a new key is generated.
+current-access-key-text=Current Access Key
+setrhash-genkey=Generate New Key
+setrhash-header=Remote Access Key
+setrhash-error=Unable to retrieve key.
+
+chrootpass-abbr=New Root Password
+new-root-password-text=New Root Password
+chrootpass-description1=This operation allows you to change the 'root' password for the operating system.
+chrootpass-description2=
+chrootpass-new-password=New Password:
+chrootpass-confirm-new-password=Confirm New Password:
+submit-change-password=Change Password
+
+
+modlimit-description1=Fork Bomb Protection will prevent users with terminal access (ssh/telnet) from using up all the resources on the server. Unchecked resource allocation can potentially lead to a server crash.
+modlimit-description2=It is recommended that this protection be enabled for servers providing terminal access.
+modlimit-enable-button=Enable Protection
+modlimit-disable-button=Disable Protection
+
+
+//SSH
+SSH=SSH
+SSHManage=Manage SSH Keys
+SSHTerm=Connect using SSHTerm (requires java)
+SSHTelnet=Connect using Java Telnet Applet (requires java)
+SSHAS=Authorization Status
+SSHNoKey=No Public Keys installed.
+SSHPubKeyMsg=* Note, it is possible that authorizing one key will cause multiple keys to be authorized if the keys are identical, but have different names.
+SSHGenAKey=Generate a new Key
+SSHKeyName=Key Name (defaults to id_dsa)
+SSHType=Key Type
+SSHDSA=DSA
+SSHRSA=RSA
+SSHReturn=Return to SSH Manager
+SSHKeyGenHead=SSH Key Generator
+SSHImportKey=Import SSH Key
+SSHChooseName=Choose a name for this key (defaults to id_dsa):
+SSHImportPriPaste=Paste the Private Key in this box
+SSHImportPubPaste=Paste the Public Key in this box
+SSHAuth=SSH Key Authorization
+SSHPublic=Public SSH Key
+SSHPrivate=Private SSH Key
+SSHDeleteMsg=Are you sure you wish to delete the key named
+SSHPrivateDelete=Are you sure you wish to delete this private key?
+SSHDeltePubKey=Delete Public SSH Key
+SSHDesc=SSH allows secure file transfer and remote logins over the internet.  Your connection via SSH is encrypted allowing the secure connection. In this section you can manage your SSH keys to allow automation when logging in via SSH.  Using public key authentication is an alternative to password authentication.  Since the private key must be held to authenticate, it is virtually impossible to brute force.  You can Import existing keys, generate new keys, as well as <a href="keys/index.html">manage</a>/delete keys.
+SSHDesc2=SSH (Secure Shell) is a program to log into another computer/server over a network securely. It provides strong authentication and secure communications over insecure channels. Your login, commands, text are all encrypted when using ssh.
+SSHImport=Import
+SSHViewDown=View/Download
+SSHViewDownKey=View/Downlod SSH Keys
+SSHDeleteKey=Delete
+SSHGenDesc=Generating a Public Key:
+SSHGenDesc2=RSA vs DSA:  RSA and DSA are encryption algorithms used to encrypt your key.  DSA is faster for Key Generation and Signing and RSA is faster for Verification.
+SSHPuddy=** You can download the private/public keys here and import into <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">PuTTY</a> (or other SSH clients) if you prefer using something else for SSH connections.  Or, if you have been using PuTTY, you can import the public/private keys by click on Import Key.   You can also download your key in PuTTY's ppk format under View/Download.
+SSHKeyDesc=The public and private key are similar to a puzzle.  They are created together to use during the login/authentication process.  The public key resides on the server (the remote location)  The private key resides locally on your computer/server.  When you attempt to login to a server, the public and private key are compared.  If they "match", then you will be allowed to login to the server location.
+SSHImportKeyDesc=You may have already generated an SSH public/private key pair. If so, you can import it here. Simply paste the keys into fields below.
+SSHPuttyPPK=conversion to ppk format:
+SSHKeyDescHead=Key Descriptions:
+SSHManageAuth=Manage Authorization
+SSHOpenKey=Open Key
+SSHDownloadKey=Download Key
+SSHBack=Back to Manage Keys
+SSHImportNote=<strong>Note:</strong>You don't have to import both keys. It is perfectly acceptable to just im port a public OR private key if that is all you need on the server.
+SSHNoPassPhraseWarning=Using public key authentication without specifying a pass phrase is a huge security risk!
+
+
+//PGP Keys
+PGPImport=Import Key
+PGPKey=Key:
+PGPDelete=Delete GnuPG Key
+PGP1024=1024
+PGP2048=2048
+PGP4096=4096
+ReturnPGP=Return to GnuPG Keys Main
+PGPKeyGen=GnuPG Key Generator
+PGPModifyKey=Modify Keys
+PGPEdit=Edit GnuPG Key
+PGPCreateKey=Create a New Key
+PGPDeletePrivate=Delete Private GnuPG Key
+PGPDescription=GnuPG is a publicly available encryption scheme that uses the "public key" approach. With GnuPG, messages are encrypted using a "public key" however, they can only be decrypted by a "private key", which is retained by the intended recipient of the message.
+Branding-Yours=Yours
+Branding-System=System
+
+
+//Log Manager
+LM-Archive=Archive Logs in your home directory at the end of each month
+LM-RemoveOld=Remove the previous month's archived logs from your home directory at the end of each month
+LM-NoLogs=Currently there are no archived log files.
+
+
+//Choose Log Programs
+LP-Domain=Domain
+LP-Analog=Analog
+LP-Awstats=Awstats
+LP-Webalizer=Webalizer
+
+//Disk Usage
+DU-FilesInDirIncluded=(includes files at this directory depth)
+DU-CurrentPath=Current Path:
+DU-CurrentDepth=Current Depth:
+DU-DecreaseDepth=Decrease Depth
+DU-IncreaseDepth=Increase Depth
+DU-DeleteSelected=Delete Selected
+DU-Actions=Actions...
+DU-HideSmallFiles=Hide Small Files
+DU-ShowSmallFiles=Show Small Files
+DU-ShowParents=Show Parent Directories
+DU-HideParents=Hide Parent Directories
+DU-ShowTop=Show Top Level
+DU-ClearCache=Clear File Usage Cache
+DU-HideSmall=Hide Small Files
+DU-ShowBytes=Show File Sizes as Bytes
+DU-ShowMegabytes=Show File Sizes as Megabytes
+DU-FileListTooLarge=File List too large, output has been limited to the first 4096 files.
+DU-Directory=Directory
+DU-Size=Size
+DU-bytes=bytes
+DU-MB=MB
+DU-Select=Select:
+DU-All=All
+DU-None=None
+DU-Total=Total:
+
+//Clam AV
+Clam-ScanMail=Scan Mail
+Clam-ScanHome=Scan Entire Home Directory
+Clam-ScanPublicWeb=Scan Public Web Space
+Clam-ScanPublicFtp=Scan Public FTP Space
+Clam-ScanPublicFTP=Scan Public FTP Space
+Clam-ScanNow=Scan Now
+
+
+Fileman-DeleteFolder=Delete this folder and all files under it
+Fileman-RenameFolder=Rename this folder
+Fileman-ChangePerm=Change Permissions
+Fileman-MoveFolder=Move this folder
+Fileman-CopyFolder=Copy this folder
+Fileman-RenameFolder=Rename Folder
+
+Fileman-DownloadFile=Download File
+Fileman-Showfile=Show File
+Fileman-ShowfileContents=Show File Contents
+Fileman-ExtractFile=Extract File Contents
+Fileman-EditCode=Edit File with Code Editor
+Fileman-Edit=Edit File
+Fileman-RenameFile=Rename File
+Fileman-CopyFile=Copy File
+Fileman-MoveFile=Move File
+Fileman-DeleteFile=Delete File
+Fileman-HTMLEditor=Html Editor
+
+
+
+LM-ArchiveHomeEnd=Archive Logs in your home directory at the end of each stats run
+LM-every= ~[every 
+LM-days= day(s)~]
+LM-hours= hour(s)~]
+EAConfMailTxt=EAConfMailTxt
+FWCouldNotAdd=Sorry, could not add forwarder.
+
+
+pwminstrength_fail_txt=Sorry, the password you selected cannot be used because it is too weak and would be too easy to guess.  Please select a password with strength rating of % or higher.
+pwminstrength_tip=You can increase the strength of your password by adding UPPER CASE, numbers, and symbol characters.  You should avoid using words that are in the dictionary as <a href="http://en.wikipedia.org/wiki/Password_cracking" target="_blank">crackers</a> usually start with these first.  Currently the system requires you use a password with a strength rating of % or greater.
+
+
+DPWeak=Weak
+DPOK=OK
+DPStrong=Strong
+DPVStrong=Very Strong
+DPJAlertMaxLength=Sorry, the password cannot be longer than 15 characters.
+DPJAlertMinLength=Sorry, the password must be longer then 5 characters.
+DPJPassDontMatch=Sorry, the passwords do not match. Please try again.
+PWGenTitle=Password Generator
+PWGenStr=Password Strength:
+PWGenVWeak=Very Weak (0)
+PWGenSel=Password Selection
+PWGenSelmsg1=Your password is:
+PWGenSelmsg2=<p><br /> Please make a note of it and store it in a safe place as it will not be shown again.</p>
+PWGenSelHint=Password Selection Hint.
+PWGenuc=Uppercase:
+PWGenlc=Lowercase:
+PWGennum=Numbers:
+PWGensym=Symbols:
+PWGenpl=Password Length:
+DPHint1=<ul><li>Memorize your password, do not write it down</li><li>Do not share your password. Create a new account instead</li><li>Avoid using one password for all your logins</li><li>Don&#39;t provide your password to someone for assistance unless you verify:<ul><li>They need the password</li><li>They are who they say they are</li></ul></li><li>Avoid logging in from public computers</li><li>Change your password frequently</li></ul>
+DPHint2=<ul><li>Avoid dictionary words</li><li>Avoid familiar items (names, phone number, etc)</li><li>Use a combination of letters, numbers, and special characters</li><li>Use more characters (7+)</li></ul>
+DPHintTitle2=Tips for choosing a password:
+PassTooWeak=Your password does not meet the strength requirements, you must change it now to avoid having your account compromised.
+
+securityquestion-1=What is your primary frequent flyer number?
+securityquestion-2=What is your library card number?
+securityquestion-3=What was your first phone number?
+securityquestion-4=What was your first teacher's name?
+securityquestion-5=What is your father's middle name?
+securityquestion-6=What is your maternal grandmother's first name?
+securityquestion-7=In what city was your high school?
+securityquestion-8=What was the name of your first boyfriend or girlfriend?
+securityquestion-9=What is your maternal grandfather's first name?
+securityquestion-10=In what city were you born? (Enter full name of city only)
+securityquestion-11=What was the name of your first pet?
+securityquestion-12=What was your high school mascot?
+securityquestion-13=How old were you at your wedding? (Enter age as digits.)
+securityquestion-14=In what year (YYYY) did you graduate from high school?
+securityquestion-15=In what city did you honeymoon? (Enter full name of city only)
+securityquestion-16=What is the first name of the best man/maid of honor at your wedding?
+securityquestion-17=What is your paternal grandmother's first name?
+securityquestion-18=What is your mother's middle name?
+securityquestion-19=In what city were you married?
+securityquestion-20=In what city is your vacation home?
+securityquestion-21=What is the first name of your first child?
+securityquestion-22=What is your paternal grandfather's first name?
+securityquestion-23=What is the name of your first employer?
+securityquestion-24=When is your wedding anniversary? (Enter the full name of month)
+securityquestion-25=What is your paternal grandfather's first name?
+securityquestion-26=What is the first name of the best man/maid of honor at your wedding?
+securityquestion-27=In what city was your mother born? (Enter full name of city only)
+securityquestion-28=In what city was your father born?  (Enter full name of city only)
+select-security-ques=Please select a question
+security-desc=Please select from the following security questions and provide answers you can remember. You will be asked your chosen security questions in the event you need to recover your password or if you are logging in from an unrecognized computer or network.
+security-questions-title=Security Questions
+security-questions-conf-title=Confirm Security Questions and Answers
+security-questions-conf-desc=Please confirm your questions and answers are correct.
+security-questions-answer-desc=You are trying to access your account from an unrecognized IP address. Please enter the answers to your security questions to allow access.
+security-question-question-minlength=The question must be at least 2 characters long.
+security-question-question-maxlength=The question cannot be longer than 128 characters.
+security-question-answer-minlength=The answer must be at least 2 characters long.
+security-question-answer-maxlength=The answer cannot be longer than 128 characters.
+security-question-unselected=A security question must be selected.
+save-answers=Save Answers
+verify-answers=Verify Answers
+continue=continue
+Unknown=Unknown
+NoRootLogin=The system currently does not allow you to login as root directly.  You must setup a reseller with the 'all' privilege.
+security-unknown-ip=You are logging in from an unrecognized computer or network.
+
+ClkToEdit=Click to Edit
+ftp_pwminstrength_fail_txt=Sorry, the FTP password you selected cannot be used because it is too weak and would be too easy to guess.  Please select a password with strength rating of % or higher.
+SecurityPolicy=Security Policy
+securitypolicy-searchtxt=ip access questions login password
+SecPolAnsw=Click here to change answers.
+SecQuesSaveMsg=Your security question answers have been set.
+PasswdAgemsg1=You have not changed your password in
+PasswdAgemsg2=days.  The current security policy requires that you change your password every
+PasswdAgemsg3=days to avoid your account being compromised.
+none_recorded=None Recorded
+InvalidInputs=Invalid inputs
+
+email_password_why=Choosing a strong password is particularly important in web hosting.  Web servers are usually more powerful and have access to greater bandwidth than your personal computer; this makes them a prime target for <a href="http://en.wikipedia.org/wiki/Password_cracking" target="_blank">password crackers</a>.
+email_password_tip=You can increase the strength of your password by adding UPPER CASE, numbers, and symbol characters (@, #, $, %, etc).
+email_password_again=Password (again)
+email_strength=Strength
+email_why=why?
+create_strong_password=create strong password
+
+// keys from non-utf8 version before case 31917 consolidation
+
+service_melange_pretty_name=Melange Server
+service_manager_tailwatchd_note=Disabling all drivers will effectively disable tailwatchd.
+Per_Account=Per Account Only
+disable_chkservd_confirm=This action will disable chkservd and will disable monitoring for any monitored services.  Is that what you want to do?
+service_melange_name=melange
+service_pop_pretty_name=POP3 Server
+Backup_Type=Backup Type
+service_exim_description=SMTP Server
+password_weak=Sorry, the password you selected cannot be used. This system requires stronger passwords for this service. Please select a password with a higher strength rating. Required strength:
+ssl_successfully_deleted=The SSL Certificate was successfully removed from the domain.
+Restore_Only=Restore Only
+service_sshd_description=Secure Shell Daemon
+service_pop_descriptiondovecot=Dovecot POP3 Server
+Backup_Compress_Accounts=Compress Account Backups
+service_interchange_description=Shopping Cart Server
+account_and_mysql_dir=Per Account and Entire MySQL Directory
+service_ipaliases_description=
+ftp_backup_dir_note= (optional, a directory called cpbackup in the FTP account's directory root will be used if none specified)<br /><i>examples: /home/fred/cpbackup, /backup/cpbackup, /files/cpbackup</i>)
+service_melange_description=Java Chat Server
+service_mailman_name=mailman
+service_mailman_pretty_name=Mailman
+service_mailman_description=Mailing List Manager
+service_postgresql_pretty_name=PostgresSQL Server
+service_crond_pretty_name=Cron Daemon
+backup_sql_db_note= (at least "Per Account" is needed to use the restore feature)
+service_httpd_description=Web Server
+service_spamd_name=spamd
+service_pop_description=cPanel POP3 Server
+monday=Monday
+service_exim_name=exim
+Remote_FTP=Remote FTP
+service_ftpd_description=Ftp Server
+password_space=Sorry, passwords can not contain spaces. Please select another password.
+service_clamd_name=clamd
+thursday=Thursday
+service_named_pretty_name=DNS Server
+service_manager_monitor=Monitor
+incremental_backup_note= (only backup what has changed.)  (**No Compression**, not compatible w/FTP backups)
+service_mysql_name=mysql
+die_on_mount_fail_note= (Recommended if Remount/Mount set)
+service_cpdavd_description=cPanel DAV Daemon
+remote_ftp_backup_only= (Remote FTP Backup Only)
+complete_mysql_dir=Entire MySQL Directory
+Backup_SQL_Databases=Backup SQL Databases
+PasswordStrength_min=Minimum password strength (5-100)
+FTP_Backup_Directory=FTP Backup Directory
+Backup_Config_Files=Backup Configuration Files
+service_tomcat_pretty_name=Tomcat Server
+service_postgresql_description=PostgreSQL Database Server
+service_crond_description=Cron Daemon
+Daily=Daily
+service_cpanellogd_description=cPanel Log and Bandwidth Processor
+ssl_successfully_installed=SSL certificate was successfully installed on the domain
+Disabled=Disabled
+failed_to_update_prefs=Failed to Save Update Preferences
+service_imap_pretty_name=IMAP Server
+service_syslogd_name=syslogd
+service_spamd_pretty_name=SpamAssassin Server
+remount_note= (requires a separate drive/coda/nfs mount)
+FTP_Backup_Passive_Mode=FTP Backup Passive Mode
+Select_Specific_Users=Select Specific Users
+saturday=Saturday
+service_imap_name=imap
+friday=Friday
+service_cpsrvd_pretty_name=cPanel Daemon
+service_cpsrvd_pretty_name=cPanel Dns Admin Cache
+Weekly=Weekly
+die_on_mount_fail=Bail Out If Backup Drive Mount Fails
+service_tailwatchd_description=TailWatch Daemon (Configurable Log Monitoring Service)
+NoRootLogin_legend=Disable Login as Root
+ssl_failed_deletion=Failed to remove SSL certificate from the domain
+enable_chkservd_confirm=This action will cause chkservd to be enabled.  Is that what you want to do?
+service_manager_exim-altport_note=Useful for providers that block port 25 (multiple comma delimited ports may be added).
+service_ipaliases_name=ipaliases
+domain-not-provided=No domain was provided.
+SourceIPCheck_legend=Limit logins to verified IP Addresses
+PasswordAge_max=Maximum password age (in days)
+service_queueprocd_description=TaskQueue Processing Server
+secpol_global_parms=Global Security Policy Options
+wednesday=Wednesday
+remote_ftp_server_note= (Accounts Only)
+update_now=Update Now
+service_entropychat_pretty_name=Entropy Chat Server
+service_syslogd_pretty_name=System Logger Daemon
+service_httpd_name=httpd
+Backup_Access_Logs=Backup Access Logs
+Backup_Accounts=Backup Accounts
+execute_pre_post_backup_script=Execute Pre/Post Backup Script
+service_entropychat_description=cPanel's HTML Based Chat Server
+service_tomcat_description=Tomcat JSP Server
+service_clamd_description=ClamAV Virus Scanner
+service_named_name=named
+secpol_for_dns=Apply Security Policies for DNS Cluster requests
+service_tailwatchd_pretty_name=TailWatch Daemon
+service_cpdavd_pretty_name=cPanel DAV Daemon
+service_cpsrvd_name=cpsrvd
+service_dnsadmin_name=dnsadmin
+service_pop_name=pop
+service_exim-altport_description=Allow exim to listen on port
+secpol_for_xml=Apply Security Policies to XML-API requests
+service_spamd_description=SpamAssassin Server (if you choose to disable this, you should disable SpamAssasin in tweak settings as well)
+service_mysql_description=MySQL Database Server
+Backup_Retention=Backup Retention
+backup_interval_note= <i>(Note: Selecting <b>Daily</b> backup will give you <b>Monthly</b> and <b>Weekly</b> as well unless you choose not to retain them below. Selecting <b>Weekly</b> backup will give you <b>Monthly</b> as well unless you choose not to retain them below.)</i>
+service_tailwatchd_name=tailwatchd
+service_rsyslogd_name=rsyslogd
+demo_disabled_feature=Sorry this feature is disabled in demo mode.
+Backup_Interval=Backup Interval
+service_cpsrvd_description=cPanel Daemon
+service_dnsadmin_description=cPanel Dns Admin Cache Service
+service_manager_dnsadmin_note=Optional: significantly improves DNS management speed and performance for a small memory tradeoff
+remount_unmount_backup_drive=Remount/Unmount Backup Drive
+tuesday=Tuesday
+secpol_enable_policies=Enable Security Policies
+service_tomcat_name=tomcat
+service_sshd_name=sshd
+PasswordAge_legend=Password Age
+service_queueprocd_pretty_name=TaskQueue Processor
+PasswordStrength_error=Minimum password strength must be an integer between 5 and 100.
+service_pop_descriptioncourier=Courier POP3 Server
+service_httpd_pretty_name=Apache Web Server
+service_cpdavd_name=cpdavd
+service_interchange_name=interchange
+reseller_login_warning=Warning: You are logged in using the reseller or root password
+service_syslogd_description=System Logger Daemon
+service_entropychat_name=entropychat
+Remote_FTP_Host=Remote FTP Host
+service_imap_description=Courier IMAP Server
+update_prefs_saved=Update Preferences Saved
+FTP_Backup_User=FTP Backup User
+no_domains_for_deletion=No domains were selected for deletion
+Incremental_Backup=Incremental Backup
+service_manager_service_information=Service Information
+Enabled=Enabled
+service_exim_pretty_name=Exim Mail Server
+service_rsyslogd_description=Enhanced System Logger Daemon
+service_exim-altport_name=exim on another port
+service_queueprocd_name=queueprocd
+license_failure_message=This server is currently not licensed. Please contact the server administrator. Other services available on this server such as web services are likely functioning normally.
+Select=Select
+service_postgresql_name=postgresql
+service_crond_name=crond
+PasswordStrength_legend=Password Strength
+sunday=Sunday
+service_cpanellogd_name=cpanellogd
+ssl_failed_installation=Failed to install SSL certificate on the domain
+backup_config_files_note= (not needed for account restoration)
+Monthly=Monthly
+FTP_Backup_Password=FTP Backup Password
+QuotaFormatWarning=Invalid Quota Specified. Quota must be either numeric or "unlimited".
+service_cpanellogd_pretty_name=cPanel Log and Bandwidth Processor
+service_ipaliases_pretty_name=IP Aliases
+days_to_run_backup=Days to Run Backup
+Backup_Destination=Backup Destination
+backup_destination_note= (this should be a directory/NFS/Coda mount with at least twice the space of all your /home* partitions. Setting this to /home is a <b>very bad idea</b>.)
+service_manager_title=Uncheck a service to disable it
+service_imap_descriptiondovecot=Dovecot IMAP Server
+ftp_backup_passive_note= (required if you are behind a firewall or FTP backups fail)
+service_interchange_pretty_name=Interchange Server
+service_ftpd_name=ftpd
+noadmincontact=The administrator has not configured their contact information
+service_named_descriptionnsd=Name Server Daemon (NSD)
+service_named_descriptionmydns=Name Server Daemon (MyDNS)
+service_ftpd_pretty_name=Ftp Server
+service_manager_extra_title=Additional services
+secpol_configured=Security Policies Configured
+service_manager_tailwatchd_heading=TailWatch Drivers:
+service_named_description=Berkeley Name Server Daemon (BIND)
+service_sshd_pretty_name=SSH Daemon
+Standard=Standard
+service_mysql_pretty_name=MySQL Server
+service_rsyslogd_pretty_name=rsyslogd
+service_clamd_pretty_name=ClamAV Daemon
+
+MX_email_routing=Email Routing
+MX_auto_detect_config=Automatically Detect Configuration
+recommended=recommended
+cjt_password_generator=Password Generator
+changepass_oldpass_notempty=Old password cannot be empty.
+cjt_ajax_loading=loading...
+cjt_Error=Error
+cjt_json_error=JSON Error
+cjt_json_parse_failed=JSON parse failed.
+cjt_ajax_error=AJAX Error
+cjt_ajax_try_again=Please refresh the page and try again.
+MX_local_exchanger=Local Mail Exchanger
+MX_local_exchanger_auto_desc=If the lowest number mail exchanger points to an IP on this server the server will be configured to accept mail locally and from outside the server.
+MX_local_exchanger_desc=Configure server to always accept mail. Mail will be delivered locally on the server when sent from the server or outside the server.
+MX_backup_exchanger=Backup Mail Exchanger
+MX_backup_exchanger_auto_desc=If a mail exchanger other than the lowest points to an IP on this server, the server will be configured to act as a backup mail exchanger.
+MX_backup_exchanger_desc=Configure server as a backup mail exchanger. Mail will be held until a lower number mail exchanger is available.
+MX_remote_exchanger=Remote Mail Exchanger
+MX_remote_exchanger_auto_desc=If there are no mail exchange that point to an IP on this server the server will be configured to not accept mail locally and send mail to the lowest MX record.
+MX_remote_exchanger_desc=Configure server to not accept mail locally and send mail to the lowest MX record.
+MX_auto_detect_note=Note: Automatic detection of MX configuration is not possible if MX entries do not resolve (ie: you mistype a domain name or enter one that does not exist).  If your MX configuration is set to auto and you add or edit an MX record that does not resolve you will see a warning and MX configuration will default back the last known setting.
+current_setting_bold=Current setting is shown in <strong>bold</strong>.
+MX_routing_warning=Warning: Setting the wrong option here can break receiving mail on your server.  If you are at all unsure about which option to select contact your system administrator.
+MX_priority_positive_integer=Priority must be a positive integer.
+MX_destination=Destination
+MX_priority=Priority
+MX_destination_fqdn=Destination must be a FQDN<br />(fully-qualified domain name).
+content_changed=Content Changed
+must_change_before_edit=You must change something before you can edit.
+MX_added_record=Added MX Record
+MX_adding_record=adding record...
+MX_deleting_record=deleting record...
+MX_editing_record=editing record...
+MX_changed_record=Changed Record
+MX_no_records_set=No MX Records set.  Defaulting to the A record for this domain.
+MX_changing=changing...
+MX_current_detected_setting=current detected setting
+MX_Local=Local
+MX_Backup=Backup
+MX_Remote=Remote
+
+//2012-3-18
+get_in_google=Get In Google
+seo_tools=SEO Tools
+increase_website_traffic=Increase Website Traffic
+one_click_sitemap=One-Click Sitemap
+link_building=Link Building
+seo_tips=SEO Tips
+google_services_for_websites=Google Website Services
+seo_tools_long=SEO and Marketing Tools
+attracta-searchtxt=Attracta Facebook Google SEO sitemap
